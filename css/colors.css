@@ -39,7 +39,9 @@ a.link:hover,
 .home2 .location-block i:before,
 .btn1.stl2:hover,
 .combopack-offer .text-block-stl1 .title .top-h {
-    color: #3D4E7A;   
+color: #3D4E7A;
+	
+ /*    color: white; */  
 }
 
 
@@ -127,7 +129,8 @@ a.link:hover,
 .fastive-season .owl-nav .owl-prev:hover,
 .bg-single-neww .owl-nav .owl-prev:hover,
 .bg-single-neww .owl-nav .owl-next:hover {
-	border-color: #5D77BA;
+	border-color: #485888; 
+	/*#5D77BA*/
 }
 .main-nav.home2 {
 	background: rgba(193, 10, 40, 0.2) ;
