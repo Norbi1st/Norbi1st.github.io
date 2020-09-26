@@ -123,7 +123,8 @@ hr {
 	margin-bottom: 70px;
 }
 
-  /* VONAL H2 SZÖVEG ALÁ SZÍNEL LENTEBB EGYEL*//*
+  /* VONAL H2 SZÖVEG ALÁ SZÍNEL LENTEBB EGYEL*/
+  /**/
 .section-title h2 {
 	position: relative;
 	margin-top: 10px;
@@ -132,7 +133,7 @@ hr {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 
-*/
+
 
 
 .section-title h2::after {
