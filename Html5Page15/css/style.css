@@ -268,7 +268,8 @@ h1#logo a {
 	color:#fff;
 	font-size:14px;
 	text-align:center;
-	padding-top:160px;
+	padding-top:225px;
+	/*padding-top:160px; N1st*/
 	display:block;
 }
 .box .last {
