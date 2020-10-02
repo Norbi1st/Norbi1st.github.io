@@ -12,13 +12,13 @@ padding:2px;
 margin:0px;
 }
 #main_container{
-width:1000px;
+width:1400px;
 height:auto;
 margin:auto;
 padding:0px;
 }
 .top_bar{
-width:1000px;
+width:1400px;
 height:38px;
 background-color:rgb(13, 64, 99);
 }
@@ -69,8 +69,8 @@ float:left;
 padding:0 5px 0 5px;
 }
 #header{
-width:1000px;
-height:173px;
+width:1400px;
+height:auto;
 background:url(images/header_bg.jpg) no-repeat center;
 background-position:0px 0px;
 margin:auto;
@@ -81,7 +81,7 @@ padding:15px;
 }
 /*------------------------------oferte_content-----------------------*/
 .oferte_content{
-width:600px;
+width:1000px;  /*600*/
 height:164px;
 float:left;
 padding:0 0 0 50px;
@@ -182,7 +182,7 @@ clear:both;
 }
 /*---------------- menu tab----------------------*/
 #menu_tab{
-width:1000px;
+width:1400px;
 height:50px;
 background-color:#fff;
 }
@@ -199,7 +199,7 @@ float:left;
 background:url(images/menu_right.gif) no-repeat center;
 }
 ul.menu {
-list-style-type:none; float:left; display:block; width:982px; 
+list-style-type:none; float:left; display:block; width:1400px; 
 margin:0px; padding:0px;background:url(images/menu_bg.gif) repeat-x;}
 
 ul.menu li {
@@ -260,8 +260,10 @@ color:#0fa0dd;
 }
 
 /*-------------left_content------------------*/
+
+/* távolság*/
 .left_content{
-width:196px;
+width:296px;
 float:left;
 }
 .title_box{
@@ -357,9 +359,11 @@ text-align:center;
 padding:10px 0 10px 0;
 }
 
-/*center content--------------------------*/
+/*center content---------------széleség jobbra-----------*/
+
+
 .center_content{
-width:585px;
+width:685px; /*585*/
 float:left;
 padding:5px 10px;
 }
@@ -587,7 +591,7 @@ color:#1c4a52;
 }
 /*--------------footer----------------*/
 .footer{
-width:1000px;
+width:1400px;
 clear:both;
 height:65px;
 background:url(images/footer_bg.gif) repeat-x top;
