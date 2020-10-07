@@ -1664,7 +1664,7 @@ N1st   07. Category
   float: left;
   position: relative;
   z-index: 1;
-  background: #f4edda;
+  background: rgba(6, 37, 95, 0.527) ; /*background: #f4edda;*/
   margin-bottom: 30px;
   overflow: hidden;
 }
