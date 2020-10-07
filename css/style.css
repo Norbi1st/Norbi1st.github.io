@@ -1734,7 +1734,7 @@ N1st   07. Category
   opacity: 0.1;
 }
 .bg9 {
-  background: #f0f2c5;
+  background:rgba(6, 37, 95, 0.527) ;   /*background: #f0f2c5;*/
 }
 
 .block-stl3.stl2 .offer-block {
