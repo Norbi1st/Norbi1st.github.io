@@ -234,6 +234,7 @@ header .intro-text {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
+/* Szürke Egyenes Vonal Border*/
 #about h2 {
 	position: relative;
 	margin-bottom: 15px;
@@ -504,6 +505,22 @@ color: #777;
 #footer a:hover {
 	color: #e52f3c;
 }
+
+
+
+/*N1st*/
+/* Szürke Egyenes Vonal Border*/
+#ab  {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+
+
+
+
 
 @media (max-width: 768px) {
 #about img {
