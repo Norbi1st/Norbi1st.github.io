@@ -1205,7 +1205,7 @@ h1.loader2 {
 
 .slider1 .text-stl1 {
   font-size: 144px;
-  color:  white;#e4c5a6;
+  color:  white;#e4c5a6;;   /*white;#e4c5a6;*/
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
