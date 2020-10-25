@@ -1010,7 +1010,7 @@ h1.loader2 {
 }
 .main-nav .nav ul li.drop>.drop-down {
   position: absolute;
-  width: 180px;
+  width: 180px; /*150px*/
   background: rgba(6, 37, 95, 0.527) ;   /  N1st Legördülö Menü Color  *background /*: #fff;*/ */
   left: 0;
   top: 120px;
@@ -1045,12 +1045,12 @@ h1.loader2 {
   width: 100%;
 }
 .main-nav .nav ul li.drop>.drop-down>li>a {
-  color: #999;
+  color: #fff;  /* color: #999;*/
   padding: 15px 20px;
   border-radius: 0px;
 }
 .main-nav .nav ul li.drop>.drop-down>li>a:hover {
-  color: #fff;
+  color: #7da0fa; /*  color: #fff;*/
 }
 .main-nav .nav-right-block {
   float: left;
