@@ -1010,8 +1010,8 @@ h1.loader2 {
 }
 .main-nav .nav ul li.drop>.drop-down {
   position: absolute;
-  width: 150px;
-  background: #fff;
+  width: 180px;
+  background: rgba(6, 37, 95, 0.527) ;   /  N1st Legördülö Menü Color  *background /*: #fff;*/ */
   left: 0;
   top: 120px;
   text-align: left;
