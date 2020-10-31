@@ -227,6 +227,7 @@ h6 {
 h2 {
   font-weight: 700;
 }
+/*Hátér Pozició*/
 .fixed-bg {
     position: absolute;
     top: 0;
@@ -244,7 +245,7 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index:-1;
+  z-index: -1;
 }
  /* loader */
 .loader_wrapper {
