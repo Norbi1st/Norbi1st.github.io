@@ -1812,7 +1812,7 @@ span.ceo1{
 	margin: 0 auto;
 }
 .resp-tab-item:hover {
-	border: 1px solid #00BFF0;
+border: 1px solid #00BFF0;	
 	background: #FFF;
 }
 .resp-tab-active{
