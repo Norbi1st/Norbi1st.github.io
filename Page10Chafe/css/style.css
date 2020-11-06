@@ -251,7 +251,7 @@ header .intro-text {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.09);/*  ELVÁLASZTÓ VONAL  */   
+	border-bottom:  1px solid rgba(0, 0, 0, 0.09); /*   ELVÁLASZTÓ VONAL  */   
 }
 #about h2::after {
 	position: absolute;
