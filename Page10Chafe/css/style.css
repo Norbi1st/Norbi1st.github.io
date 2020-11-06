@@ -251,28 +251,28 @@ header .intro-text {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);/*  ELVÁLASZTÓ VONAL  */   
 }
 #about h2::after {
 	position: absolute;
 	content: "";
-	background-color: #e52f3c;
+	background-color:/* #e52f3c; ELVÁLASZTÓ VONALON SZÍN  */ 
 	height: 3px;
 	width: 50px;
-	bottom: -1px;
+	bottom: -1px; 
 	left: 0;
 }
 #about .about-text li {
-	margin-bottom: 6px;
+	margin-bottom: 16px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 }
 #about .about-text li:before {
-	content: '\f00c';
+	content:  '\f00c';   
 	font-family: 'FontAwesome';
 	color: #1f386e;
-	font-size: 11px;
+	font-size: 30px;
 	font-weight: 300;
 	padding-right: 8px;
 }
