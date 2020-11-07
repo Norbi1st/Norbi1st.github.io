@@ -897,7 +897,7 @@ ul.event1_text{
 	margin-bottom: 5px;
 }
 span.m_5{
-	color:#ff0000;
+	color:  #00BFF0;/*#ff0000;*/  
 	font-size:0.8125em;
 	font-weight:bold;
 }
@@ -1340,7 +1340,7 @@ p.m_8{
 }
 .subscribe1 {
 	width:65%;
-	background:#e25050;
+	background:  #00BFF0;/*#e25050;*/  
 }
 .subscribe1:hover {
 	background:#00BFF0;
