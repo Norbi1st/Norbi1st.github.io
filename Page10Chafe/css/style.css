@@ -69,7 +69,7 @@ hr {
 #menu.navbar-default {
 	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 30px rgba(0,0,0,0.2)
+	box-shadow: 0 0 30px rgba(0,0,0,0.2)   /* rgba(47, 245, 7, 0.589)*/ 
 }
 #menu a.navbar-brand {
 	font-family: 'Montserrat', sans-serif;
@@ -102,7 +102,7 @@ hr {
 	float: left;
 	font-size: 16px;
 	font-weight: 400;
-	color: #999;
+	color:#1f386e;/*#999;*/
 }
 #menu .phone span {
 	font-size: 14px;
@@ -314,7 +314,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #f6f6f6; /**/
 }
 .portfolio-item {
 	margin: 15px 0;
