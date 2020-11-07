@@ -42,7 +42,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #e52f3c;
+	color:chartreuse ;   /*#e52f3c;*/
 }
 ul, ol {
 	list-style: none;
@@ -90,10 +90,10 @@ hr {
 	margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #ce2a36;
+	color: chartreuse ;   /* #ce2a36;*/
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ce2a36 !important;
+	color: chartreuse/* #ce2a36*/ !important;
 	background-color: transparent;
 }
 #menu .phone {
@@ -154,7 +154,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #e52f3c;
+	background-color: chartreuse;/*#e52f3c;*/
 	padding: 14px 20px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -423,7 +423,7 @@ header .intro-text {
 	font-weight: 600;
 }
 #contact .text-danger {
-	color: #cc0033;
+	color: springgreen ; /* #cc0033;*/
 	text-align: left;
 }
 #contact .btn-custom {
@@ -515,7 +515,7 @@ color: #777;
 	color: #1f386e;
 }
 #footer a:hover {
-	color: #e52f3c;
+	color:  chartreuse  ; /*#e52f3c;*/ 
 }
 
 @media (max-width: 768px) {
