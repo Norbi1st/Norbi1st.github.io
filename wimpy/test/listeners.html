@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
+<title>inchworm</title>
+
+<link href="_styles.css" rel="stylesheet" type="text/css">
+<script src="_prettify.js"></script>
+<script src="_test-stuff.js"></script>
+
+<!-- Wimpy Engine -->
+<script src="../wimpy.js"></script><script src="wimpy.js"></script>
+
+
+</head>
+<body onload="pageReady()">
+<div id="mainMenu"></div>
+<div id="pageWrapper" class="pageWrapper">
+
+
+<div id="myPlayer" data-wimpyplayer data-media="../song1.mp3|../song2.mp3|../song3.mp3"></div>
+
+
+
+<script>
+
+var player;
+var btn_play;
+var btn_pause;
+var btn_prev;
+var btn_next;
+
+wimpy.onReady(function(){
+
+	// if only one player on the page, no need to specify which player to get. If more than one player, specify as:
+	// player = wimpy.getPlayer("myPlayer"); // where "myPlayer" is the ID of the player in the HTML that you define. 
+	player = wimpy.getPlayer();
+
+	player.addListener("play", didPlay);
+	player.addListener("pause", didPause);
+	player.addListener("stop", didStop);
+	player.addListener("next", didNext);
+	player.addListener("rewind", didRewind);
+
+	player.addListener("clickPlay", clickPlay);
+	player.addListener("clickPause", clickPause);
+	player.addListener("clickStop", clickStop);
+	player.addListener("clickNext", clickNext);
+	player.addListener("clickRewind", clickRewind);
+	player.addListener("clickVolume", clickVolume);
+	player.addListener("clickMute", clickMute);
+	player.addListener("clickRandom", clickRandom);
+	player.addListener("clickLoop", clickLoop);
+
+	player.addListener("done", didDone);
+	player.addListener("launch", didLaunch);
+
+	player.addListener("runtime", runtime)
+
+});
+
+var currentTime = 0;
+function runtime(Vplayer, Vplaying, Vinfo){
+	currentTime = Vinfo.current;
+}
+
+
+function clickPlay(info){
+	console.log("clickPlay", info.state.current)
+}
+
+function clickPause(info){
+	console.log("clickPause", info.state.current)
+}
+
+function clickStop(info){
+	console.log("clickStop", info.state.current)
+}
+
+function clickNext(info){
+	console.log("clickNext", info.state.current)
+}
+
+function clickRewind(info){
+	console.log("clickRewind", info.state.current)
+}
+
+function clickVolume(info, vol){
+	console.log("clickRewind", info.state.current, vol)
+}
+
+function clickMute(info, state){
+	console.log("clickMute", info.state.current, state)
+}
+
+function clickRandom(info, state){
+	console.log("clickRandom", info.state.current, state)
+}
+
+function clickLoop(info, state){
+	console.log("clickLoop", info.state.current, state)
+}
+
+
+// ------------------
+
+function didPlay(theURL){
+	console.log("didPlay", player.getTime(), theURL)
+}
+
+function didPause(theURL){
+	console.log("didPause", player.getTime(), theURL)
+}
+
+function didStop(theURL){
+	console.log("didStop", player.getTime(), theURL)
+}
+
+function didRewind(theURL){
+	console.log("didRewind", player.getTime(), theURL)
+}
+
+function didNext(theURL){
+	console.log("didNext", player.getTime(), theURL)
+}
+
+function didDone(theURL){
+	console.log("didDone", player.getTime(), theURL)
+}
+
+function didLaunch(theURL){
+	console.log("didLaunch", player.getTime(), theURL)
+}
+
+</script>
+
+
+</div> <!-- close pageWrapper -->
+</body>
+</html>

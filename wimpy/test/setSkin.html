@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+	<meta charset="UTF-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"></meta>
+	<title>Musique</title>
+
+	<style type="text/css">
+		body {
+			background: #4d1c1c;
+		}
+
+		.player {
+			height: 100%;
+			margin: auto;
+			min-height: 500px;
+			min-width: 450px;
+			max-width: 1200px;
+			width: 90%
+		}
+	</style>
+
+
+	<link href="_styles.css" rel="stylesheet" type="text/css">
+	<script src="_prettify.js"></script>
+	<script src="_test-stuff.js"></script>
+
+	<!-- Wimpy Engine -->
+	<script src="../wimpy.js"></script><script src="wimpy.js"></script>
+
+</head>
+
+<body>
+
+	<div class="player" data-wimpyplayer data-media="../playlists/test.xml" data-skin="../wimpy.skins/itunesesc.tsv"
+		data-responsive data-startUpText="Salut - Prends ce que tu aimes !" data-downloadEnable=1
+		data-downloadTip="T&eacute;l&eacute;charger la piste" data-coverArtFit=2>
+	</div>
+
+	<!--
+	<div class="player" data-wimpyplayer data-media="../wimpy.php" data-skin="../wimpy.skins/itunesesc.tsv"
+		data-responsive data-startUpText="Salut - Prends ce que tu aimes !" data-downloadEnable=1
+		data-downloadTip="T&eacute;l&eacute;charger la piste" data-coverArtFit=2>
+	</div>
+	-->
+
+	<script>
+
+		var skins = {
+			mp3 : "../wimpy.skins/_defaultskin.tsv", 			// "wimpy.skins/jojo.tsv"
+			mp4 : "../wimpy.skins/video_player_2.tsv"    // "wimpy.skins/video_player_2.tsv"
+		}
+
+		skins.default = skins.mp3; // when we pause
+
+
+		var player;
+		var btn_play;
+		var btn_pause;
+		var btn_prev;
+		var btn_next;
+		var width;
+		var height;
+		var id;
+		var lastSkinKind;
+
+		wimpy.onReady(function () {
+
+			// if only one player on the page, no need to specify which player to get. If more than one player, specify as:
+			// player = wimpy.getPlayer("myPlayer"); // where "myPlayer" is the ID of the player in the HTML that you define. 
+			player = wimpy.getPlayer();
+			width = player.width;
+			height = player.height;
+			id = player.id;
+
+			player.addListener("skinReady", skinReady); // shhh secret
+
+			//player.addListener("clickPlay", clickPlay);
+			player.addListener("play", didPlay);
+			player.addListener("pause", didPause);
+
+		});
+
+
+		function didPause(info) {
+			console.log("didPause", info);
+			setSkin("default");
+		}
+
+		function didPlay(info) {
+			console.log("didPlay", player.getTime(), info)
+
+			var file = info.track.file;
+
+			// we're checking the file extentions agains knonw audio/video lists
+			var newSkin;
+			if ( /\.(mp3|wav|aac|m4a|mpa|oga|ogg|flac)$/i.test(file) ) {
+				newSkin = "mp3";
+
+			} else if( /\.(m4v|mp4|m4p|ts|webm|ogx|ogv)$/i.test(file) ) {
+				newSkin = "mp4";
+				
+			}
+
+			setSkin(newSkin);
+
+		}
+
+		function setSkin(kind){
+
+			// kind is one of the properties in the "skins" object.
+
+			if(kind != lastSkinKind){
+
+				console.log("Changement de skin");
+				console.log("       old: ", lastSkinKind );
+				console.log("       new: ", kind );
+				player.setSkin( skins[kind], 1);
+				lastSkinKind = kind;
+			}
+
+		}
+
+		function skinReady(skinObj){
+			console.log("skinReady", skinObj);
+			console.log("current size", player.width, player.height);
+		}
+
+	</script>
+</body>
+
+</html>
