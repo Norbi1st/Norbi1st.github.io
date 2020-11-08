@@ -3091,7 +3091,7 @@ button.btn.btn-search.active {
   color: #fff;
 }
 .page-info .overlay {
-  background: #000;
+  background: #5d77ba; /* #000; */
   opacity: 0.9;
 }
 .page-info .breadcrumb>.active {
