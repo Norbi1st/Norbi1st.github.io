@@ -1989,7 +1989,7 @@ N1st   07. Category
   padding: 125px 0 0;
 }
 .amezing-offers .overlay {
-  background: #383838;
+  background:rgba(6, 37, 95, 0.527) ; #071b75;/*#383838;*/
   z-index: -1;
 }
 .amezing-offers .fixed-bg {
