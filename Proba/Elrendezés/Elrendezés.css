@@ -1,0 +1,42 @@
+
+
+       
+
+
+
+
+
+       #section2{ 
+           background-color: rgba(44, 190, 88, 0.712);
+           padding: 120px;
+          
+       }
+
+       <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .img-container {
+          float: left;
+          width: 32.33%;   /*33.33%;*/
+          padding: 5px;
+        }
+        
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+
+   
+
+      
+            
+
+        
+    
+           
+            
+         
