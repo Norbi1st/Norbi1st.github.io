@@ -1,0 +1,68 @@
+
+    /**/ #hg{;background-color: rgb(0, 75, 141);
+    
+max-width: 100%; }
+
+#old{ width: 1520px ;
+    margin: 110 auto 0 auto;
+    
+}
+
+#fejléc{
+    width: 1520px ;
+    height: 120px; 
+}
+
+#navsáv{
+    width: 1520px ;
+    height: 70px; 
+
+}
+
+#nav{}
+
+
+#közép1{}
+#közép {float:left;
+    width: 90px; 
+height:300px ;}
+
+#balsáv{float: left; 
+width: 1100px;
+height: 300px;}
+
+#jobblinksáv{float: left;
+max-width:320px ;
+height: 300px;
+}
+
+
+
+
+#float1{float: left;
+width: 1520px;
+height: 180px;
+}
+
+
+
+
+
+
+/*color*/
+#old{background-color: rgba(202, 230, 255, 0.74);}
+
+#fejléc{ background-color: rgba(57, 131, 241, 0.534); }
+
+#navsáv{ background-color: rgba(90, 147, 252, 0.664);  }
+
+
+
+
+#közép{background-color: rgba(238, 255, 0, 0.795);}    
+
+#balsáv{background-color:rgba(8, 140, 255,0.329 ) };
+
+#jobblinksáv{background-color: rgba(240, 23, 204, 0.774);}
+
+#float1{background-color: rgba(40, 72, 255, 0.733);}

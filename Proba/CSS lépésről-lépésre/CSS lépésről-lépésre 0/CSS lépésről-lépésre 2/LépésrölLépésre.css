@@ -1,0 +1,51 @@
+/*oldal felépítése*/  
+#lap{width:770px;   
+    margin:10px auto 10px auto;}  
+  #fent, #kozep, #lent{margin:0 0 0 0;}  
+  #fejlec{height:180px;}  
+  #infopanel{height:65px;}  
+  #balsav{float:left;  
+    width:161px;}  
+  #jobbsav{float:left;  
+    width:141px;}/*141*/  
+  #tartalom{float:left;  
+    width:468px}/*468=770-141-161*/  
+  #lent{clear:both;}  
+  /*design elemek*/  
+  /*debugging*/  
+  #fejlec{background-color:red;}  
+  #infopanel{background-color:green;}  
+  #tartalom{background-color:yellow;}  
+  #balsav{background-color:pink;}  
+  #jobbsav{background-color:gray;}  
+  #lent{background-color:red;}  
+
+
+
+
+/* /*közép-balsav
+     #balsav{padding-top:15px;}  
+     #balsav ul{margin:0 0 0 0;  
+       padding:0 0 0 0;}  
+     #balsav li{list-style-type:none;} */
+
+    
+
+
+    
+
+
+
+/*  #lent{background-image:url('./img/lablec.jpg');  
+    text-align:center;  
+    font-size:10px;  
+    padding:10px 0 10px 0;  
+    font-family:Tahoma,sans-serif;  
+    font-size:11px;  
+    height:41px;}/*61-10-10*/ */
+
+ 
+
+
+
+
