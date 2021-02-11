@@ -582,7 +582,7 @@ Project:	Domnoo  - Responsive HTML Template
 
             }
         },
-        // vid
+        // vid     NORBI
         filter1: function() {
             if ($('#filter_itm1').length) {
                 var filter_itm1 = $('#filter_itm1');
@@ -647,7 +647,7 @@ Project:	Domnoo  - Responsive HTML Template
                       ]
                     });
 
-
+//NORBI  
                 var filtered = true;
                 var f_btn = $('.btn-filter-wrap');
                 f_btn.on('click', '.filterer', function(){
@@ -668,6 +668,11 @@ Project:	Domnoo  - Responsive HTML Template
                     } else{
                       slider_flr.addClass('filtered');
                     }
+
+
+
+
+
                     if(whichID === 'js-filter-0'){
                       if (filtered === true) {
                         filter_itm1.slick('slickFilter','.js-filter-chicken');
@@ -679,6 +684,11 @@ Project:	Domnoo  - Responsive HTML Template
                         filtered = true;
                       }
                     }
+
+
+
+
+
                     if(whichID === 'js-filter-1'){
                       if (filtered === true) {
                         filter_itm1.slick('slickFilter','.js-filter-meats');
@@ -689,7 +699,13 @@ Project:	Domnoo  - Responsive HTML Template
                         filter_itm1.slick('slickGoTo',0);
                         filtered = true;
                       }
-                    } else if(whichID === 'js-filter-2'){
+                    }
+                    
+                  
+                  
+                  
+                  
+                    else if(whichID === 'js-filter-2'){
                       if (filtered === true) {
                         filter_itm1.slick('slickFilter','.js-filter-populars');
                         filter_itm1.slick('slickGoTo',0);
@@ -699,7 +715,11 @@ Project:	Domnoo  - Responsive HTML Template
                         filter_itm1.slick('slickGoTo',0);
                         filtered = true;
                       }
-                    } else if(whichID === 'js-filter-3'){
+                    } 
+                    
+                    
+                    
+                    else if(whichID === 'js-filter-3'){
                         if (filtered === true) {
                           filter_itm1.slick('slickFilter','.js-filter-veggie');
                           filter_itm1.slick('slickGoTo',0);
@@ -709,7 +729,17 @@ Project:	Domnoo  - Responsive HTML Template
                           filter_itm1.slick('slickGoTo',0);
                           filtered = true;
                         }
-                    } else if(whichID === 'js-filter-4'){
+                    } 
+                    
+                    
+                    
+
+        
+
+
+                    
+                    
+                    else if(whichID === 'js-filter-4'){
                         if (filtered === true) {
                           filter_itm1.slick('slickFilter','.js-filter-burgers');
                           filter_itm1.slick('slickGoTo',0);
@@ -720,7 +750,126 @@ Project:	Domnoo  - Responsive HTML Template
                           filtered = true;
                         }
                     }
-                  } else{
+
+
+
+                    else if(whichID === 'js-filter-5'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-Norbi201');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+
+                    else if(whichID === 'js-filter-6'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-magyarAllam');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+
+                    else if(whichID === 'js-filter-7'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-travel');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+                    else if(whichID === 'js-filter-8'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-buying');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+                    else if(whichID === 'js-filter-9'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-fordFocus');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+                    else if(whichID === 'js-filter-10'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-hardware');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+                    else if(whichID === 'js-filter-11'){
+                        if (filtered === true) {
+                          filter_itm1.slick('slickFilter','.js-filter-easyHobby');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        } else {
+                          filter_itm1.slick('slickUnfilter');
+                          filter_itm1.slick('slickGoTo',0);
+                          filtered = true;
+                        }
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  } 
+                  
+                  
+                  
+                  
+                  
+                  else{
                       slider_flr.removeClass('filtered');
                       filter_itm1.slick('slickUnfilter');
                       filter_itm1.slick('slickGoTo',0);
