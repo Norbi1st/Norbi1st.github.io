@@ -647,7 +647,7 @@ Project:	Domnoo  - Responsive HTML Template
                       ]
                     });
 
-//NORBI  
+//NORBI START 
                 var filtered = true;
                 var f_btn = $('.btn-filter-wrap');
                 f_btn.on('click', '.filterer', function(){
@@ -841,7 +841,7 @@ Project:	Domnoo  - Responsive HTML Template
 
 
 
-
+//NORBI END
 
 
 
