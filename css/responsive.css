@@ -289,7 +289,7 @@
 	    width: -moz-calc(100% - 130px);
 	}
 	.domnoo-menu-filter2 .filter-tabnav {
-		background: #fff;
+		background:  #fff; /**/ /*rgba(0, 132, 255, 0.336);*/
 		margin-bottom: 0;
 		padding: 0 0 0 130px;
 	}
@@ -378,7 +378,7 @@
 	}
 	.review_slider .owl-nav .owl-next {
 	    right: -22px;
-	    background: #fff;
+	    background: #fff;   
 	} 
 	.review_slider .owl-nav .owl-prev {
 	    left: -22px;
@@ -772,7 +772,7 @@
 		right: -4px;
 	}
 	.slick_next.slick-arrow, .slick_prev.slick-arrow {
-		background: #fff;
+		background:   #fff; /**/ /*rgba(0, 132, 255, 0.336);*/
 	}
 }
 /*max-width: 1199px*/
@@ -861,7 +861,7 @@
 		left: 0;
 		width: 100%;
 		height: auto;
-		background: #fff;
+		background: #fff;    /* */ /*rgba(0, 132, 255, 0.336);*/
 		padding: 10px 0 0;
 		display: none;
 		z-index: 1;
@@ -879,7 +879,7 @@
 		z-index: 2;
 		width: 100%;
 		top: 45px;
-		background: #f7f7f7;
+		background:  #f7f7f7;  /**/ /*rgba(0, 132, 255, 0.336);*/
 		display: none;
 		visibility: visible;
 		opacity: 1;
@@ -890,7 +890,7 @@
 		-o-transform: translateX(0px);
 		transform: translateX(0px);
 		-webkit-box-shadow: 0 10px 15px 0 rgba(000,000,000,0.1);
-		box-shadow: 0 10px 15px 0 rgba(000,000,000,0.1);
+		box-shadow: 0 10px 15px 0   rgba(000,000,000,0.1);  
 		animation: anim1 ease 1s;
 		animation-iteration-count: 1;
 		transform-origin: 50% 50%;
