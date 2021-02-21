@@ -39,7 +39,7 @@ a.link:hover,
 .home2 .location-block i:before,
 .btn1.stl2:hover,
 .combopack-offer .text-block-stl1 .title .top-h {
-color: #3D4E7A;
+color: #3D4E7A; /*#3D4E7A   Írás Betük oldalon*/  
 	
  /*    color: white; */  
 }
@@ -97,7 +97,7 @@ color: #3D4E7A;
 .theme-menu button.btn,
 .theme-menu button.btn:active,
 .go-to-top {
-	background: #3D4E7A;
+	background: #3D4E7A;/*#3D4E7A     GOMBOK old */
 }
 
 
@@ -137,14 +137,14 @@ color: #3D4E7A;
 	background: rgba(193, 10, 40, 0.2) ;
 }
 .main-nav .nav-right-block {
-	background: #3D4E7A;
+	background: #3D4E7A; /*#3D4E7A    jobb széle a Nav sávnak menü*/
 }
 .main-nav:before {
 	background: url(../images/brd.png);
 }
 /*bg color shades*/
 .bg1 {
-	background: #5d77ba; /*background: #7DA0FA;*/ 
+	background: #5d77ba; /*background: #7DA0FA;   kék sáv középen Flat ikonsor*/ 
 }
 .bg2 {
 	background: #5d77ba;
