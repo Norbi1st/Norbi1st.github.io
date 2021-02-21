@@ -1399,7 +1399,7 @@ N1st   07. Category
   width: -moz-calc(50% - 49px);
   display: inline-block;
   float: left;
-  background: #dbdbdb;
+  background:   #dbdbdb;
   height: 1px;
   content: "";
   position: relative;
