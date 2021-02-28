@@ -79,7 +79,7 @@ float:left;
 background:url(images/menu_divider.gif) no-repeat center;
 }
 
-a.nav:link, a.nav:visited {
+a.nav:link, a.nav:visited { 
 display:block; float:left; padding:0px 8px 0px 8px; margin:0 14px 0 14px;height:36px;text-decoration:none;color:#fff;}
 
 a.nav:hover{
