@@ -1,9 +1,35 @@
 
 h1{
     font-family:Helvetica, Arial,  sans-serif;
+    max-width: 200%;
 }
 
 p{
-   font-size: 27px;   /*font-size: 48px;   */
+   font-size: 26px;   /*font-size: 48px;   */
    font-family:Helvetica, Arial,  sans-serif;
 }
+
+
+img{
+  /*background-color: rgba(2, 6, 247, 0.664);*/  
+    
+  
+   
+   
+   padding-right: 60px;
+   padding-block: 4px;
+   padding-left: 430px;
+}
+
+div.jjk{
+  /*background-color: darkcyan;*/  
+}
+  
+
+
+
+
+      
+    
+    
+    
