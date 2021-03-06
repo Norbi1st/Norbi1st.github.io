@@ -11,7 +11,7 @@ p{
 }
 
 
-img{
+ img{
   /*background-color: rgba(2, 6, 247, 0.664);*/  
     
   
@@ -21,6 +21,11 @@ img{
    padding-block: 4px;
    padding-left: 430px;
    padding-bottom: 0px;
+
+
+
+ 
+
 }
 
 
@@ -34,6 +39,31 @@ div.jjk{
 
 
       
+  /*  DOBOZ -BOX DIV-BE*/
     
-    
-    
+  div.doboz-2{
+
+  font-size: 50px;
+  color: rgba(0, 47, 255, 0.767);
+  background-color: rgba(81, 255, 0, 0.452);
+  padding-left: 50px;
+  padding: 0px;
+  padding-bottom: 300px;
+  padding-left: 0;
+  
+ 
+ 
+
+
+  }  
+
+
+
+
+  #doboz-2, img {
+    padding-bottom:0px;
+    padding-left:0;
+    padding-top: 0px;
+
+    float:left;
+  }
