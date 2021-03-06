@@ -2,6 +2,7 @@
 h1{
     font-family:Helvetica, Arial,  sans-serif;
     max-width: 200%;
+   
 }
 
 p{
@@ -19,7 +20,10 @@ img{
    padding-right: 60px;
    padding-block: 4px;
    padding-left: 430px;
+   padding-bottom: 0px;
 }
+
+
 
 div.jjk{
   /*background-color: darkcyan;*/  
