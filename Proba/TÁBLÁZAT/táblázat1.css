@@ -19,7 +19,7 @@ p{
    
    padding-right: 60px;
    padding-block: 4px;
-   padding-left: 430px;
+   padding-left: 420px;
    padding-bottom: 0px;
 
 
@@ -41,7 +41,7 @@ div.jjk{
       
   /*  DOBOZ -BOX DIV-BE*/
     
-  div.doboz-2{
+  /*  div.doboz-2{
 
   font-size: 50px;
   color: rgba(0, 47, 255, 0.767);
@@ -51,19 +51,20 @@ div.jjk{
   padding-bottom: 300px;
   padding-left: 0;
   
- 
- 
-
-
-  }  
+  }  */
+  
 
 
 
-
-  #doboz-2, img {
+/* #doboz-2, img {
     padding-bottom:0px;
     padding-left:0;
     padding-top: 0px;
 
     float:left;
-  }
+
+
+
+  }*/
+
+ 
