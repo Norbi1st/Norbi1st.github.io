@@ -31,13 +31,13 @@ p{
 
 
 div.jjk{
- /* background-color: hsla(155, 100%, 62%, 0.336); */
+ /* background-color: hsla(155, 94%, 67%, 0.425); */
   print:none;
   color:#fff;
   background-image: url(/images/imgCapri1.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment:fixed;
+  background-attachment:scroll;
 
 
 }
