@@ -1,0 +1,78 @@
+
+h1{
+    font-family:Helvetica, Arial,  sans-serif;
+    max-width: 200%;
+   
+}
+
+p{
+   font-size: 26px;   /*font-size: 48px;   */
+   font-family:Helvetica, Arial,  sans-serif;
+}
+
+
+ img{
+  /*background-color: rgba(2, 6, 247, 0.664);*/  
+    
+  
+   
+   
+   padding-right: 60px;
+   padding-block: 4px;
+   padding-left: 420px;
+   padding-bottom: 0px;
+
+
+
+ 
+
+}
+
+
+
+div.jjk{
+ /* background-color: hsla(155, 94%, 67%, 0.425); */
+  print:none;
+  color:#fff;
+  background-image: url(/images/imgCapri1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:scroll;
+
+
+}
+  
+
+
+
+
+      
+  /*  DOBOZ -BOX DIV-BE*/
+    
+  /*  div.doboz-2{
+
+  font-size: 50px;
+  color: rgba(0, 47, 255, 0.767);
+  background-color: rgba(81, 255, 0, 0.452);
+  padding-left: 50px;
+  padding: 0px;
+  padding-bottom: 300px;
+  padding-left: 0;
+  
+  }  */
+  
+
+
+
+/* #doboz-2, img {
+    padding-bottom:0px;
+    padding-left:0;
+    padding-top: 0px;
+
+    float:left;
+
+
+
+  }*/
+
+ 
