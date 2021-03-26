@@ -1,4 +1,13 @@
 
+*{
+
+  background-image: url(/indexImages/imgN144iceCreameBackground.png);
+  background-attachment:fixed;
+  background-size: width:auto; height:60% ;
+
+
+}
+
 
 h1{
     font-family:Helvetica, Arial,  sans-serif;
@@ -29,12 +38,12 @@ p{
 
 }
 
-
+/*
 
 div.jjk{
  /* background-color: hsla(155, 94%, 67%, 0.425); */
   print:none;
-  color:#fff;
+  /*color:#fff;
   background-image: url(/images/imgCapri1.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -42,12 +51,15 @@ div.jjk{
 
 
 }
-  
+ */
+
+
+/*
 
   div.iceCream1{
- /* background-color: hsla(155, 94%, 67%, 0.425);*/  
+  background-color: hsla(155, 94%, 67%, 0.425);*/  
    print:none;
-   color:#fff;
+  /*color:#fff;
    background-image: url(/images/iceCream.jpg);
    background-repeat: no-repeat;
    background-position: left;
@@ -57,7 +69,7 @@ div.jjk{
  
  }
 
-
+*/ 
       
   /*  DOBOZ -BOX DIV-BE*/
     
@@ -87,26 +99,4 @@ div.jjk{
 
   }*/
 
-
-  /*BUTTONS ANIMALT STYLE*/
-  .button {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align:center;
-    cursor:pointer ;
-    outline:none ;
-    color: #fff;
-    background-color: #4c5bafde;
-    border: none;
-    border-radius: 150px;
-    box-shadow: 0 9px rgba(98, 168, 226, 0.925);
-  }
-  
-  .button:hover {background-color: #4c5bafde;}
-  
-  .button:active {
-    background-color: #4c5bafde;
-    box-shadow: 0 5px rgba(52, 154, 238, 0.767);
-    transform: translateY(4px);
-  }
-   /*BUTTONS ANIMALT STYLE END*/
+ 
