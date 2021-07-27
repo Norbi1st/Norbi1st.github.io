@@ -16,5 +16,40 @@ automata background hátérzene müködöt néha
 
 <a target="blank " rel="" href="https://wordpress.video.hu/hatterzene-a-weboldalra/"></a>
 
+
+
+
+
+<video controls>
+    <source src="example.mp4" type="video/mp4">
+    <source src="example.webm" type="video/webm">
+    <track kind="subtitles" src="subtitles_es.vtt" srclang="es" label="English">
+</video>
+
+
+
+
+
+<figure id="videoContainer" data-fullscreen="false">
+    <video id="video" preload="metadata">
+        <source src="video/sintel-short.mp4" type="video/mp4">
+        <source src="video/sintel-short.webm" type="video/webm">
+        <track label="English" kind="subtitles" srclang="en" src="subtitles/vtt/sintel-en.vtt" default="">
+        <track label="Deutsch" kind="subtitles" srclang="de" src="subtitles/vtt/sintel-de.vtt">
+        <track label="Español" kind="subtitles" srclang="es" src="subtitles/vtt/sintel-es.vtt">
+    </video>
+    <div id="video-controls" class="controls" data-state="visible">
+        <button id="playpause" type="button" data-state="play" _msthash="140049" _msttexthash="392925">Lejátszás/szünet</button>
+        <button id="stop" type="button" data-state="stop" _msthash="50076" _msttexthash="58123">állj</button>
+        <div class="progress">
+            <progress id="progress" value="101.238927" min="0" max="120">
+                <span id="progress-bar" style="width: 84%;"></span>
+            </progress>
+        </div>
+
+
+
+
+
 </body>
 </html>

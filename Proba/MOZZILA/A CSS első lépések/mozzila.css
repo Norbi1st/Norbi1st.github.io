@@ -1,0 +1,68 @@
+
+
+h1 {
+    color: red;
+  }
+/*VESZÖVEL TÖBBET LEHET*/
+  p ,li {
+    color: green;
+  }
+
+ /*  kocka felsorlás lista elé  :square;  */
+  li {       
+    list-style-type: none;
+  }
+
+  .special{
+    color: orange;
+    font-weight:bold ;
+}
+
+  li.special {
+    color: orange;
+    font-weight: bold;
+  }
+
+/* az elemet hozzá kell adnia a választók listájához:li<span>*/
+
+  li.special,
+    span.special {
+  color: orange;
+  font-weight: bold;
+}
+/*Ha csak egy elemet választok ki, használhatom*/
+
+li em {
+    color: rebeccapurple;
+  }
+
+  /*stílus egy bekezdést, amikor jön közvetlenül után címsor ugyanazon a hierarchia szinten a HTML- ben*/
+
+  h1 + p {
+    font-size: 200%;
+  }
+
+
+
+
+
+
+ li span{
+     color: rgb(252, 6, 6);
+ }
+
+
+a:link  {
+    color:rgb(220, 20, 20) ;
+}
+
+a:visited {
+    color: rgb(0, 247, 33);
+  }
+
+  a:hover {
+    text-decoration:none ;
+  }
+
+
+ 

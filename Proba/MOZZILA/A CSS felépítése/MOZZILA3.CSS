@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid rgba(0, 248, 33, 0.829);
+}
+
+p {
+  color: red;
+}
+
+.links-list a {
+  background-color: rgb(179,57,81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+}
+    
+
