@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #fff;
     color: #333;
@@ -11,29 +13,40 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .main-nav a {
     padding: .5em 1em;
     display: block;
+
 }
 
-.push {
-    margin-left: auto;
-}
 
-.box {
-    border: 5px solid rebeccapurple;
-    background-color: lightgray;
-    padding: 40px;
-    margin: 40px;
-    width: 300px;
-    height: 150px;
-  }
+
+
+
+
+
+
   
-  .alternate {
-    box-sizing: border-box;
+  .wrapper {
+    border: 2px dotted rgb(96, 139, 168);
+    width: 500px;
+
     
-    position: relative;
-    top: 4px; left: 299px;
+  }
+.box {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin:-10px;
+   
+  }
+  .box>* {
+    flex: 1 1 160px;
+    margin: 10px;
+    a:hover: ;
+    background-color: aqua;
+ 
   }

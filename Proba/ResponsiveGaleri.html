@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Proba/ResponsiveGaleri.css">
+</head>
+<body>
+   
+    <div class="container">
+
+    <div class="heading">video Gallery</div> 
+
+    <div class="video-container">
+
+    <div class="video">
+        <video src="/Mp4/Responsive Video Gallery Using HTML5 CSS3  Vanilla Javascript.mp4" muted></video>
+    </div>
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/bR5pmwNajjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <div class="video">
+
+        <video src="/Mp4/Responsive Video Gallery Using HTML5 CSS3  Vanilla Javascript.mp4" muted></video>  
+        
+    </div>
+
+    <div class="video">
+        <video src="/Mp4/NGUAGE.mp4" muted></video>
+    </div>
+
+    <div class="video">
+        <video src="/Mp4/MOV_0979 .mp4" muted></video>
+    </div>
+
+
+
+
+    
+
+
+
+    <div class="video">
+        <video src="/Mp4/Dreamworks SKG logo (4K HD).webm" muted></video>
+    </div>
+
+    <div class="video">
+        <video src="/Mp4/Responsive Video Gallery Using HTML5 CSS3  Vanilla Javascript.mp4" muted></video>
+    </div>
+
+    <div class="video">
+        <video src="/Mp4/Responsive Video Gallery Using HTML5 CSS3  Vanilla Javascript.mp4" muted></video>
+    </div>
+
+    <div class="video">
+        <video src="/Mp4/Responsive Video Gallery Using HTML5 CSS3  Vanilla Javascript.mp4" muted></video>
+    </div>
+
+    <div class="video">
+    <video src="/https://www.youtube.com/watch?v=bR5pmwNajjQ" muted></video>      
+    </div>
+
+    <div class="video">
+        <video src="/Mp4/Dreamworks SKG logo (4K HD)9.mp4" muted></video>
+    </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="heading">video Gallery</div> 
+
+
+</body>
+
+
+</html>
+
+<script>
+    var video = document.querySelectorAll('video')
+    
+    video.forEach(play => play.addEventListener('click', () => {
+
+        play.classList.toggle('active');
+if(play.paused){
+    play.play();
+}else{
+    play.pause();
+    play.currentTime = 0;
+}
+    }));
+
+    
+
+</script>
