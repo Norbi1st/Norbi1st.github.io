@@ -17,6 +17,10 @@
 
 <style>
  
+ * {
+  box-sizing: border-box;
+}
+
  body {
 background-color: rgba(0, 17, 112, 0.671);
 
@@ -25,7 +29,12 @@ background-color: rgba(0, 17, 112, 0.671);
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 900px) {
   .flex-container, {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+
+   
+    
+    
+   
   }
 }
 
@@ -46,18 +55,63 @@ background-color: rgba(0, 17, 112, 0.671);
   line-height: 70px;
   font-size: 98px;
 
-
-
-
 }
+
+
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
 </style>
 </head>
 <body>
 
+
+  <div class="row">
+    <div class="column">
 <h1>Laura Wilde</h1>
 <p>All direct children of a flexible container becomes flexible items.</p>
-<div class="flex-container">
-  <div  >
+<div  class="flex-container">
+  <div >
 
     <iframe width="200" height="autó" src="https://www.youtube.com/embed/MMYhO30DeJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,6 +137,10 @@ background-color: rgba(0, 17, 112, 0.671);
 </div>
 
 
+</div>
+
+
+
 
 <div class="flex-container">
     <div  >
@@ -98,6 +156,11 @@ background-color: rgba(0, 17, 112, 0.671);
   <div ><iframe width="200" height="autó" src="https://www.youtube.com/embed/APqxZAsbPnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
   <div ><iframe width="200" height="autó" src="https://www.youtube.com/embed/sbpshKZxYJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
+
+
+
+
+
 
 <h1>Flexible Items</h1>
 
@@ -115,6 +178,10 @@ background-color: rgba(0, 17, 112, 0.671);
   <div >3</div> 
   <div >4</div>
 </div>
+
+
+
+
 
 
 <h1>Flexible Items</h1>
@@ -138,7 +205,7 @@ background-color: rgba(0, 17, 112, 0.671);
 
 
 
-
+</div>
 
 </body>
 </html>
