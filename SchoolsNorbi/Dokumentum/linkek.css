@@ -1,0 +1,57 @@
+.Linksor{
+   
+    display: inline-block;
+    
+}
+
+
+Button{
+   background-color: rgba(12, 255, 3, 0.247);"
+   display: inline-block;
+
+}
+
+.button {
+    float: left;
+}
+.Betü{
+    
+    flex-direction: row;
+    display: inline-flex;
+    width: 900px;
+    height: 200px;
+    border: solid 1px;
+    align-content: stretch;
+
+   
+    margin: 0px 30px 0px 10px;
+
+}
+float: left;
+display: inline-block; 
+flex-direction: column;
+
+
+
+#gz{
+ display: inline-block;  
+
+} 
+
+
+
+
+
+a button{
+    background-color: #4c7aafc2;
+    border: none;
+    color: white;
+    padding: 5px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 20px;
+    cursor: pointer;
+  
+}

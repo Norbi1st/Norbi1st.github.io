@@ -1,0 +1,32 @@
+
+
+
+/* display Property (tulajdonsága ) rá keresni ? syntaxis     :inline block ; egysorba rendezi*/
+ /* Property:  https://developer.mozilla.org/en-US/docs/Web/CSS/display padding: 14px; */ 
+#br1{
+    display:inline-block ;    
+     
+}
+
+
+#br1{
+    padding-top: 70px;
+}
+
+
+
+
+
+/*paddig sorba :
+
+35px= fent(top) ;0px=jobbra (right); 20px lent  (booton); 70px balra (left);
+
+ */
+.cl-brk{
+    background-color: #698fd6;
+    display:inline-block ; 
+   /*padding: 35px 0px 0px 70px;*/ 
+    padding-bottom: 70PX;  
+}
+
+

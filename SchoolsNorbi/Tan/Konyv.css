@@ -1,0 +1,67 @@
+  /**/
+
+.gh{
+    background-color: coral;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    color: ghostwhite;
+    font-size: 20px;
+    margin: 20px 30px 20px 0px;
+ 
+ 
+    color: rgb(24, 27, 204) /* text color to white */
+    text-shadow: 0 0 50px #333;
+
+
+    /*  gömbölyü
+        -webkit-border-radius: 30px ;
+         -moz-border-radius: 30px;
+        border-radius: 30px;
+   
+     árnyék a gomb körül
+        -webkit-box-shadow: 5px 5px 10px rgb(222, 247, 4);
+        -moz-box-shadow: 5px 5px 10px rgb(255, 238, 0);
+        box-shadow: 5px 5px 10px rgb(251, 255, 1);
+        */  
+ 
+
+
+
+  
+    /**/
+    -webkit-box-shadow: 0 0 20px #333 inset, 
+    20px 15px 30px yellow, 
+    -20px 15px 30px lime, 
+    -20px -15px 30px blue, 
+    20px -15px 30px red;
+     
+    -moz-box-shadow: 0 0 20px #333 inset, 
+    20px 15px 30px yellow, 
+    -20px 15px 30px lime, 
+    -20px -15px 30px blue, 
+    20px -15px 30px red;
+  
+    box-shadow: 0 0 20px #333 inset, 
+    20px 15px 30px yellow, 
+    -20px 15px 30px lime, 
+    -20px -15px 30px blue, 
+    20px -15px 30px red;
+
+}
+
+
+.kl{
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+    text-indent: 30px;
+    
+    -webkit-border-radius: size;
+    -moz-border-radius: size;
+    border-radius: size;
+
+
+}
+
+
+
