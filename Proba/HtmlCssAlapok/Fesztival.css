@@ -7,11 +7,43 @@
     background-color: rgba(173, 216, 230,0.3);
 }*/
 
+/*../ egyel feljebb a kőnyvtárba onét indulva hogy index html ahol vagyok most majd 
+be az image kőnyvtárba és a kép nevét kijelölni apasztofok közé kell tenni és sima zárojel
 
+Beálitásai :
+  background-repeat: ; hogy ismételje e a ripit 
+  ha nyomunk F12 a  FEJLESZTÖI KÖRNYEZETBEN 
+és kiveszük a Propertinek az értékét : 
+   background-repeat: repeat;
+                    a repeat-et  és katintunk az öszes tulajdonságát
+                     megmotatja ha katintunk a ketöspont és aaz üre pontos veszö között         
+   background-repeat: repeat;
+
+*/
 body{
-    background-image:url() ;
+    background:url('../images/slider-bg1.jpg') rgba(0, 128, 0, 0.288)  no-repeat center center; /*egybe is belehetett irni az egészet + töld szín*/
+    color: rgb(255, 255, 255);
+    font-size: 20px;  /*Betü mérete PX*/
+    font-style:italic; /*Betü dölt lehyen*/
+    line-height:27px ; /*sormagaság ENEK AZ értéke VALUE : px */
+    font-family: Arial, Helvetica, sans-serif; /*betü tipusok w3school on alul sorba szabd ccsak megadni a modját !!*/
+    font-weight: 100; /*Betü vastagság  100-700 ig talán*/
+
+
+   /*   background-repeat: repeat;  ISMÉTLÖDIK */ 
+   
+   background-size: contain;  /*KÉPÜNK HÁTÉR RÉSZE NEM VÁGODIK LE ennél a beálitásnál*/
+   background-repeat: no-repeat;  /*ismétlödés*/
+   background-position: center center; /*kis hátér képet tudun középre jobra balra alája másik hátér szint is lehet ,
+   két értéket kell megadni egymás után PL:    background-position: top center;   */
+   background-attachment: fixed;  
 }
 
 
 /*google tulba kis kék ikon szinskála*/
 /*COLOR PICKER A W3SCHOOLS OLDALON*/
+
+
+
+-----------------------------------------------------------
+/*Box model 1:43:23mp*/

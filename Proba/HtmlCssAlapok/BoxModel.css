@@ -1,0 +1,37 @@
+*{
+     box-sizing: border-box;
+}    /*szöveghez a dobozhoz nem adodik méret hanem megmarad az a méret 
+amit szeretnénk 400px különben 440px lenne*/
+
+
+body{
+    background:url('../images/slider-bg1.jpg');
+    margin:0;  
+}
+
+.box{
+
+    background-color: white;
+    max-width: 500px;
+    /*etöl reszponziv let ha nincs ott a max összetolni google tool nál 
+    mind két esetben a képet dobozt*/
+    width: 90%;
+    /*padding: 20px;*/ 
+    margin: 40px auto;  
+    border-width: 10px;
+    /*border-style: solid;*/ 
+    /* border-color:green;*/ 
+
+
+    /*SORTEND MEGADÁS ( ez ugyanb az mint a 3 eom sor):  PL:   border: 10px solid  green   ;
+    PL: Sorthend : pedding:20px 20px 20px 20px ÓRAJÁRÁSAL MEGEGYEZÖ  
+    ELSÖ FENT 2. jobbra 3. lent 4. balra;
+    */
+}
+
+.header-image{
+    background-image: url('../images/pexels-baskin-creative-studios-1766838 N1.jpg' );
+    height: 200px;
+}
+
+/*RESZPONZIV 1:56:25 mp nél van*/
