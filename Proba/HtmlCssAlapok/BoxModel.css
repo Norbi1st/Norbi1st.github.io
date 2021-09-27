@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+
 *{
      box-sizing: border-box;
 }    /*szöveghez a dobozhoz nem adodik méret hanem megmarad az a méret 
@@ -6,22 +10,24 @@ amit szeretnénk 400px különben 440px lenne*/
 
 body{
     background:url('../images/pexels-lumn-285437.jpg');
-    margin:0;  
+    margin:0; 
+    font-family: 'Oswald', sans-serif;
 }
+
+
+
 
 .box{
 
     background-color: white;
-    max-width: 500px;
-    /*etöl reszponziv let ha nincs ott a max összetolni google tool nál 
-    mind két esetben a képet dobozt*/
-    width: 90%;
+    max-width: 500px;            /*etöl reszponziv let ha nincs ott a max összetolni google tool nál  mind két esetben a képet dobozt*/
+    width: 90%;   
     /*padding: 20px;*/ 
     margin: 40px auto;  
-    border-width: 10px;
+    /*border-width: 10px;*/ 
     /*border-style: solid;*/ 
     /* border-color:green;*/ 
-
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.7);
 
     /*SORTEND MEGADÁS ( ez ugyanb az mint a 3 eom sor):  PL:   border: 10px solid  green   ;
     PL: Sorthend : pedding:20px 20px 20px 20px ÓRAJÁRÁSAL MEGEGYEZÖ  
@@ -29,9 +35,57 @@ body{
     */
 }
 
-.header-image{
+.box .box-content {
+    padding: 20px;
+}
+
+.box .box-content p {
+    color: #535353;
+}
+
+.box .box-content h2 {
+    margin: 0px;
+    color: rgba(98, 108, 253, 0.568);
+}
+
+
+.details1  {
+  margin-bottom: 0px;  /*vagy shortend megadásalis lehet órajárásal fent jobra lent balra = margin-bottom: 16px 0px 0px 0px  ;   */
+}
+
+
+
+.details1 a {
+    background-color:#feb127 ;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
+.box .header-image {
     background-image: url('../images/pexels-baskin-creative-studios-1766838 N1.jpg' );
     height: 200px;
 }
 
 /*RESZPONZIV 1:56:25 mp nél van*/
+
+
+
+
+/*vagy ugyan az mert ezen belül van contenten belül:       .box-content h2{  }
+*/
+
+
+
+
+.box .header-image2{
+    background-image: url('../images/pexels-pixabay-60006.jpg')top center;  /*sor tend megadásal van a top és a center*/
+    height: 200px;
+}
+
+
+/* 4. TANANYAG  02:24:00 - Float layout, clearfix               */
