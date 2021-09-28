@@ -1,0 +1,23 @@
+
+body{
+  margin: 0;  
+}
+
+
+iframe {
+   
+   background-color: #00ff2a8f;
+   color: rgba(255, 255, 255, 0.781);
+   text-align: center;
+   display:inline-block;
+   font-size:40px ;
+   font-weight: 900;
+   margin: 5px 20px 20px 5px;
+   padding: 0px;
+   max-width: 600px;
+   min-width: 400px;
+   width: 13%;
+   height: 240px;
+
+}
+
