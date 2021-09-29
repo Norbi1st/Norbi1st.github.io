@@ -2,4 +2,96 @@
 
 body{
     margin: 0;
+ 
+   
+}
+/*wraper ugyan az mint a conainer*/
+.wrapper{
+    max-width: 1000px;   /*reszponzivitás*/  
+    margin: 0px auto;
+}
+
+header{
+    background:url('../images/pexels-pixabay-326278.jpg') fixed;
+    color: white;
+    font-size: 80px;
+    font-weight: 700px;
+  /* EZ HELYET A ALATA A PADDING   height: 300px;*/  
+    padding: 80PX 60PX;
+    text-shadow:rgba(0 0 20px  0.0.0.0.8); /*Betü Árnyéka)*/
+}
+*{
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: rgb(35, 36, 34);
+}
+
+/* A Menüsor felugorjon a fejlécre  
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  ( after= utána)*/
+
+
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+nav{
+    width: 25%;
+    float: left;   /*mind két helyre be kell írni hogy függetlenek maradjanak*/
+}
+
+nav ul{
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+
+nav ul li{
+
+    border-bottom:1px dashed white;  
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    padding: 15px 0 0 ;                         /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */ 
+    display: block;   
+}
+
+nav a:hover{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+main{
+    width: 75%;
+    float: left;
+    background-color: rgba(4, 34, 124, 0.349);
+    padding: 30px;
+}
+
+main img{
+    float: left;
+}
+
+.float-right{
+    float:right;
+    margin: 0 10px 10px 0;
+}
+
+
+.float-left{
+    float:left
+    margin:0 0 10px 10px;
+}
+
+p{
+    color: white;
 }
