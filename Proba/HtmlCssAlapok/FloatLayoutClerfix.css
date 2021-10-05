@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&family=Roboto:ital,wght@1,100;1,300&display=swap');
 
 body {
     margin: 0;   
@@ -7,7 +8,7 @@ body {
 
 /*wraper ugyan az mint a conainer*/
 .wrapper{
-    max-width: 1000px;   /*reszponzivitás*/  
+    max-width: 1440px;   /*reszponzivitás   1000px  */  
     margin: 0px auto;
 }
 
@@ -25,7 +26,7 @@ header{
 }
 
 .content{
-    background-color: rgb(35, 36, 34);
+    background-color: rgba(34, 88, 158, 0.76);
 }
 
 /* A Menüsor felugorjon a fejlécre  
@@ -60,29 +61,29 @@ nav ul{
 
 nav ul li{
 
-    border-bottom:1px dashed white;  
+    border-bottom:0.1px solid white;  /*dashed  szagatott*/
 }
 nav a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-
-    padding: 15px 0 0 ;                         /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */ 
+font-size: 25px;
+    padding: 25px 0 0 ;                         /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */ 
     display: block;   
 }
 
 nav a:hover{
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 main{
     width: 75%;
     float: left;
-    background-color: rgba(4, 34, 124, 0.349);
+    background-color: rgba(51, 93, 184, 0.548);
     padding: 30px;
 }
 main p{
-    line-height: 23px;
+    line-height: 28px;/*23*/
 }
 
 main img{
@@ -150,3 +151,33 @@ h1 span{
     border-bottom: 10px solid rgb(255, 255, 255); 
     line-height: 75px;
 }
+
+
+
+/*NORBI STRAT*/
+
+main ul{
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+
+main  ul li{
+    color: rgb(255, 255, 255);
+                        /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */ 
+    
+}
+main p{
+    font-size: 25px;
+  
+   
+font-family: 'Roboto', sans-serif;
+}
+
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+/**/
