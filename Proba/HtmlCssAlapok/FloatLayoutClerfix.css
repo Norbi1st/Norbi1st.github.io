@@ -8,7 +8,7 @@ body {
 
 /*wraper ugyan az mint a conainer*/
 .wrapper{
-    max-width: 1440px;   /*reszponzivitás   1000px  */  
+    max-width: 1280px;   /*reszponzivitás   1000px  */  
     margin: 0px auto;
 }
 
@@ -163,9 +163,10 @@ main ul{
 }
 
 main  ul li{
-    color: rgb(255, 255, 255);
-                        /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */ 
-    
+    color: rgb(255, 255, 255); /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */                                    
+    line-height: 28px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 main p{
     font-size: 25px;
@@ -179,5 +180,8 @@ h1 a{
     color: white;
     text-decoration: none;
 }
-
+h2 a{
+    color: white;
+    text-decoration: none;
+}
 /**/
