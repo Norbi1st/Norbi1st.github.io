@@ -176,6 +176,15 @@ main p{
 font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+    text-decoration: none;
+}
 
 h1 a{
     color: white;
