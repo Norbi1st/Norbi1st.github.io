@@ -86,7 +86,7 @@ main{
     padding: 30px;
 }
 main p{
-    line-height: 28px;/*23*/
+    line-height: 40px;/*23*/
 }
 
 main img{
@@ -167,7 +167,7 @@ main ul{
 
 main  ul li{
     color: rgb(255, 255, 255); /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */                                    
-    line-height: 28px;
+    line-height: 48px;
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
 }
