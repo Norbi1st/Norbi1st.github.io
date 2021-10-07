@@ -9,7 +9,7 @@ body {
 
 /*wraper ugyan az mint a conainer*/
 .wrapper{
-    max-width: 1440px;   /*reszponzivitás   1000px  */ 
+    max-width: 1500px;   /*reszponzivitás   1000px  */ 
     margin: 0px auto ;
     
 }
@@ -72,6 +72,7 @@ nav a{
 font-size: 25px;
     padding: 25px 0 0 ;                         /*  padding: 15px; CSAK ETÖL UGRIK SZÉT A pADING SZÉP NAV MENÜRE EZ FONTOS display: block; */ 
     display: block;   
+    font-family: 'Roboto', sans-serif;
 }
 
 nav a:hover{
