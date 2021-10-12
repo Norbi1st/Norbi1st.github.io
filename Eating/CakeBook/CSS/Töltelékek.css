@@ -21,6 +21,16 @@ ul li a{
     
 }
 
+
+ul li a:hover{
+    background-color: cornflowerblue;
+  
+   
+    
+}
+
+
+
 h1{
     color: powderblue;
     font-size: 90px;
