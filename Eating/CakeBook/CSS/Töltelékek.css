@@ -1,6 +1,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    max-width: 1400px;
 }
 
 ul{
@@ -12,13 +13,15 @@ ul li a{
     text-decoration: none;
    font-weight: 900;
    line-height: 130px;
-    background-color: rgba(9, 6, 153, 0.836);
+    background-color: rgba(8, 6, 153, 0.575);
     color: white;
    padding: 20px;
    font-size: 50px;
+   
     
 }
 
 h1{
+    color: powderblue;
     font-size: 90px;
 }
