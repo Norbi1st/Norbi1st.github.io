@@ -15,7 +15,11 @@ body {
 }
 
 header{
-    background:url('../images/pexels-pixabay-326278.jpg') fixed;
+   
+    background:url('../Proba/images/pexels-pixabay-326278.jpg') no-repeat;    /*fixed;*/
+   
+
+
     color: white;
     font-size: 80px;
     font-weight: 700px;
@@ -54,12 +58,14 @@ header{
 nav{
     width: 25%;
     float: left;   /*mind két helyre be kell írni hogy függetlenek maradjanak*/
+
 }
 
 nav ul{
     margin: 0;
     padding: 30px;
     list-style: none;
+    
 }
 
 nav ul li{

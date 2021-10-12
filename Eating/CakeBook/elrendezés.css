@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+body {
+    margin: 0; 
+    background:url('../CakeBook/img/pexels-malidate-van-784632.jpg')no-repeat  ;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1498px;
+    margin: 40px auto;
+}
+header{
+    background:url('../CakeBook/img/pexels-ray-piedra-1565982 (3).jpg')no-repeat  ;
+    height:440px ;
+    position: relative;
+    
+}
+nav{
+    background-color: rgba(185, 131, 29, 0.5);
+   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+   
+}
+
+/*(nav ul ) UTÁN KELL LÁTNI HOGY KELL A CLEARFIX  és a
+  (nav ul li )  ELÖTT*/
+
+  nav::after {   
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+
+
+
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    
+    padding:20PX ;  /**/
+    display: block;
+
+  
+  
+}
+/*TRÜK Az  a :hover beirása után kell elé írni a nav ot */
+nav a:hover{
+    background-color:rgba(8, 8, 8, 0.2);   
+    }
+
+
+
+
+
+nav ul{
+   list-style:none ; 
+   padding: 0;
+   margin: 0;
+}
+
+
+
+
+
+
+
+/*FLOTOLÁS MERT : Az elemek felcsúsznak ezért kel a Clirfixes elem sorozat*/
+/*w3schools old néven : How TO - Clear Floats (Clearfix)*/
+/*
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+*/
+
+/*1, fLOTOLÁS : CLEAR FIXES ELEMEK*/
+/*2, Padding : a (nav a)  -ra*/
+/*3, display (table) -ra hogy megkapja a mennü a padding széleségét*/
+
+
+
+
+
+/*hogy viszintes flotolás csak ezekre vonatkozon */
+
+nav >ul >li{
+float: left;
+
+}
+
+
+
+
+
+
+main{
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    margin: 600px 0px 600px 0px;
+}
+
+main p{
+
+    line-height: 37px;
+}
+
+main h1{
+    margin: 0;
+}
+
+
+.submenu{
+    position: absolute;
+    width: 220px;
+    display: none;
+}
+.has-submenu{
+    position: relative;
+}
+.has-submenu a{
+    background-color: yellow;
+    padding: 20px 10px;
+}
+.has-submenu a:hover{
+    background-color: rgba(245, 208, 0, 0.849);
+    
+}
+
+.has-submenu:hover .submenu{
+   display: block;
+}
+
+.has-submenu::after{
+    content:'🢗' ;
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+}
+
+/*Csak a afteren belüli has-submenüre legyen érvényes a paddig csak JOBBOLDALT A MÉRET szelektálni google tool*/
+.has-submenu >a{
+    padding-right: 35px;
+}
+
+
+
+.hátér1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.281);
+    padding: 100px 200px 100px 200px;
+    margin: 0 auto;
+    font-size: 80px;
+    font-weight: 900;
+    max-width: 1498px;
+}
