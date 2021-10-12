@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+   list-style: none; 
+   
+}
+
+ul li a{
+    text-decoration: none;
+   font-weight: 900;
+   line-height: 130px;
+    background-color: rgba(9, 6, 153, 0.836);
+    color: white;
+   padding: 20px;
+   font-size: 50px;
+    
+}
+
+h1{
+    font-size: 90px;
+}
