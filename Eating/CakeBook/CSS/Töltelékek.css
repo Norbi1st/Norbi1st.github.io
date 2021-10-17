@@ -1,7 +1,22 @@
+
+
+
+
 body{
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 1400px;
+    margin: 0px;
+    max-width: 1400px; 
+   
+}
+
+
+section{
+
+    max-width: 1400px;   /*reszponzivitás   1000px  */ 
+    margin: 0px auto ;
+}
+
+div{
+    display: block;
 }
 
 ul{
@@ -12,26 +27,29 @@ ul{
 ul li a{
     text-decoration: none;
    font-weight: 900;
-   line-height: 130px;
-    background-color: rgba(8, 6, 153, 0.575);
+   line-height: 260px;
+    background-color:#5571BD ;
     color: white;
-   padding: 20px;
-   font-size: 50px;
-   
-    
+    padding: 10px 10px ;
+   font-size: 170px;
+
+  
 }
 
 
 ul li a:hover{
-    background-color: cornflowerblue;
+    background-color: #7297FC;
   
    
     
 }
 
+/*margin: 0 0 0 40px;
+    padding: 0;
+    background-color:#1C253D ;*/
 
-
-h1{
-    color: powderblue;
-    font-size: 90px;
-}
+    h1{
+        color: rgb(245, 245, 245);
+        font-size: 170px;
+     
+    }
