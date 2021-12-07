@@ -10,7 +10,7 @@ const interval = setInterval(()=>{
 
 
 
-    const deadline = new Date(2022,7,1,12,00,00);
+    const deadline = new Date(2021,12,1,12,00,00);
 
     const current = new Date();
     
