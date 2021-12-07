@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo da 2" ,cursive;
+
+}
+
+
+
+
+{
+    font-size: 62.5%;
+}
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: #77df888c;;
+    position: relative
+    ;
+}
+
+.countdown-wrapper{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: rgb(255, 251, 251);
+
+}
+
+.countdown-wrapper h1{
+
+    font-size: 8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 8rem;
+    text-shadow:0 0.5rem 0.8rem rgba(59, 136, 212,0.6); ;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+
+}
+
+.countdown div{
+    width: 13rem;
+    height: 13rem;
+    background: linear-gradient(to bottom,
+    rgba(rgba(61, 78, 122, 0.973))50%,
+    rgba(129, 170, 212, 0.9)
+    
+    );
+    margin: 0.4rem 5rem 4rem; /*5 rem a széleség*/
+    font-size: 7rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.8rem 2.5rem rgba(53, 133, 212, 0.6);
+}
+ .countdown div::before{
+    /*content: "";*/
+    position: absolute;
+    width: 100%;
+    height: 0.24rem;
+   background-color:rgba(7, 123, 240, 0.6);
+
+ }
