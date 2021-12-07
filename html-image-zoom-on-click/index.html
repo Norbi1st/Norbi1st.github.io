@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>HTML Image Zoom on Click Example</title>
+
+    <meta name="author" content="Codeconvey" />
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" href="css/demo.css" />
+	
+</head>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            <ul>
+                <li><a href="https://codeconvey.com/html-image-zoom-on-click" title="Back to tutorial page">Back to Tutorial</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+            	<h1>HTML Image Zoom on Click Example</h1>
+                <p>Smooth image zoom in zoom out on click event.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+           <!-- Image Zoom HTML -->   
+      
+       <img id="myImg" src="/html-image-zoom-on-click/img/Capri N1.jpg" alt="Trolltunga, Norw" width="500" height="300">
+       <img id="myImg" src="/html-image-zoom-on-click/img/girl2.jpg" alt="Trolltunga, Norwa" width="500" height="300">
+     
+       <img id="myImg" src="img/image.jpg" alt="Trolltunga, Norway" width="500" height="300">
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <img class="modal-content" id="img01">
+
+
+</div>
+    		<!-- End Image Zoom HTML -->
+           
+    		</div>
+		</div>
+    </div>
+</section>
+     
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+
+// When the user clicks on <span> (x), close the modal
+modal.onclick = function() {
+    img01.className += " out";
+    setTimeout(function() {
+       modal.style.display = "none";
+       img01.className = "modal-content";
+     }, 400);
+    
+ }    
+    
+</script>
+
+    <!-- Analytics -->
+
+	</body>
+</html>
