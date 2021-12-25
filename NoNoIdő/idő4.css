@@ -16,7 +16,7 @@
 .cont{
     width: 100%;
     height: 100vh;
-    background-color: rgba(6, 37, 95, 0.418);  /*: #77df888c;;*/ /*:#3D4E7A;*//*#778fdf8c;*/
+    background-color:hsla(226, 62%, 67%, 0.549)  ;  /* SZENT NEKEM mind kető  #77df888c;   */  /* eza webold színekböl rgba(6, 37, 95, 0.418)*/      /*:#3D4E7A;*//*#778fdf8c;*/
     /*: rgba(93, 119, 186, 0.562) ;*/
     
     position: relative
