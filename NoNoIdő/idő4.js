@@ -28,10 +28,10 @@ const interval = setInterval(()=>{
     
     countdown.innerHTML =`
     
-    <div data-content="days"> ${days.length=== 1 ?`0${days}`:days}</div>
-    <div data-content="hours"> ${hours.length=== 1 ?`0${hours}`:hours}</div>
-    <div data-content="minutes"> ${minutes.length=== 1 ?`0${minutes}`:minutes}</div>
-    <div data-content="seconds"> ${seconds.length=== 1 ?`0${seconds}`:seconds}</div>
+    <div data-content="Nap"> ${days.length=== 1 ?`0${days}`:days}</div>
+    <div data-content="Hm..."> ${hours.length=== 1 ?`0${hours}`:hours}</div>
+    <div data-content="Perc"> ${minutes.length=== 1 ?`0${minutes}`:minutes}</div>
+    <div data-content="Másodperc"> ${seconds.length=== 1 ?`0${seconds}`:seconds}</div>
     
     `;
     
@@ -53,6 +53,15 @@ addEventListener('click',()=>{
         div.innerHTML="00";
     })
 })
+
+
+
+
+
+
+
+
+
 
 },1000);
 
