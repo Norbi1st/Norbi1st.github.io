@@ -988,7 +988,7 @@ h1.loader2 {
   -o-transform: scale(1);
   transform: scale(1);
   opacity: 1;
-  background: #fff;   /*   */ /*  rgba(0, 132, 255, 0.336);  */
+  background: #fff;   /*   */ /*MENÜSÁV FÖLÖTT LÉVÖ VONAL  rgba(0, 132, 255, 0.336);  */
 }
 .main-nav .nav ul li.active:before {
   opacity: 1;
@@ -1046,18 +1046,18 @@ h1.loader2 {
   width: 100%;
 }
 .main-nav .nav ul li.drop>.drop-down>li>a {
-  color:  #fff;   /* color: #999;*/           /* LEGÖRDÜLÖ MEBBÜ  ÍRÁS */ /*rgba(0, 132, 255, 0.336);   */
+  color:  #fff;   /*MENÜBE LEGÖRDÜLÖBE A BETÜSZÍNEK  color: #999;*/           /* LEGÖRDÜLÖ MEBBÜ  ÍRÁS */ /*rgba(0, 132, 255, 0.336);   */
   padding: 15px 20px;
   border-radius: 0px;
 }
 .main-nav .nav ul li.drop>.drop-down>li>a:hover {
-  color: #7da0fa ; /* #7da0fa    kék old    */        /*  color: #fff;*/
+  color: #7da0fa; /*  MENÜBE LEGÖRDÜLÖBE A BETÜSZÍNEK HOVER RÉSZE ÁRNYÉK #7da0fa    kék old    */        /*  color: #fff;*/
 }
 .main-nav .nav-right-block {
   float: left;
   position: relative;
   padding: 40px 0 45px;
-  background: #3D4E7A ; /* red  #d70729*/ 
+  background: #3D4E7A  ; /* red  #d70729*/ 
   line-height: 35px;
   width: 13.1%;
   position: relative;
@@ -1109,7 +1109,7 @@ h1.loader2 {
   left: 0;
   border: 1px solid;
   border-left-color:  #fff;   /*     */ /* rgba(0, 132, 255, 0.336);   */
-  border-right-color: #000;
+  border-right-color:#000 ;
   border-right-width: 1px;
   border-style: none solid;
   opacity: 0.2;

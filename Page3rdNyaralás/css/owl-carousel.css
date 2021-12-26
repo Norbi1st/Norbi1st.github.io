@@ -52,11 +52,11 @@
 }
 
 .owl-controls a {
-  color: #336699;
+  color:#336699 ;  
 }
 
 .owl-controls a:hover {
-  color: #336699;
+  color:#336699;   /* */
 }
 
 .owl-controls .bg-prev {
