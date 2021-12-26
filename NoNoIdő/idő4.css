@@ -40,7 +40,8 @@
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
+    padding-bottom:0px ;
     text-shadow:0 0.5rem 0.8rem  rgba(53, 133, 212, 0.6); /*rgba(6, 37, 95, 0.644); */
     /*text-shadow:0 0.5rem 0.8rem rgba(59, 136, 212,0.6); ;*/
 }
@@ -52,7 +53,7 @@
 
 .countdown div{
     width: 13rem;
-    height: 13rem;
+    height: 12rem;
     background: linear-gradient(to bottom,
     rgba(rgba(61, 78, 122, 0.973))50%,
     rgba(129, 170, 212, 0.9)
