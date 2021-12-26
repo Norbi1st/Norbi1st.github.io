@@ -1750,7 +1750,7 @@ N1st   07. Category
   text-align: left;
 }
 .block-stl3.stl4 .offer-block {
-  top: -30px;    /* Hot Hamburger text Helyzete 55px*/
+  top: 1px;    /* Hot Hamburger text Helyzete 55px*/
   right: 0;
   max-width: 310px;
   text-align: left;
