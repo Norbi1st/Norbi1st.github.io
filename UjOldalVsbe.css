@@ -1,0 +1,201 @@
+
+body{
+    color: chartreuse;
+    background-color: white;
+    font-family:  Helvetica, sans-serif, Arial ;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    color: rgba(255, 255, 255, 0.993);
+
+}
+
+a:hover{
+    color: rgba(7, 94, 194, 0.603);
+   
+}
+
+
+/*nav start*/
+
+ /*hósszú ovális lesz töle    width: 30%;*/ 
+
+
+/*Bal logó kép*/
+nav img{
+    border-radius:30% ;
+    padding:40px;   
+  
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+  
+background-color: rgba(7, 28, 99, 0.74);
+
+}
+
+nav ul {
+    display: flex;
+ 
+   
+}
+
+nav ul li {
+    list-style: none;
+    
+    padding: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 1em 0 1em ;   /* 0 1em  ugyan az mert párba nézi*/
+    font-weight:bold ;
+
+    background-color: rgba(42, 95, 165, 0.548);
+ 
+
+}
+
+
+
+
+/*nav end*/
+
+
+
+#elsosav1 {
+  background-image:url('downloadImgWeb/Ocean Beac img/maxresdefault.jpg'); 
+  background-repeat:no-repeat;
+  height: 600px; 
+  color: rgba(32, 70, 240, 0.568);
+  padding: 3em 0 0 1.5em; 
+  width: 100%;
+
+
+
+  background-position: center center; 
+  background-size: cover;  /* contain;*/
+
+}
+
+
+
+
+
+
+/*
+ 
+background-attachment: fixed;
+background-color: #464646;
+
+*/
+
+
+
+/*@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      background-size: cover;
+    }
+  }
+  
+   On screens that are 600px or less, set the background color to olive 
+  
+   @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      background-size: cover;
+    }
+  } */
+
+
+
+
+
+
+
+#elsosav1 h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+#elsosav1 h2,
+#másodiksav2 h2 {
+
+    font-family: 'Island Moments' ,sans-serif, cursive;
+    font-size: 80px;
+    margin: 0;
+    margin-top: 0;
+}
+
+/*button property tulajdonság*/
+
+.button {
+    
+    background-color:rgba(32, 70, 240, 0.568);
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+
+/*második sáv start*/
+
+#másodiksav2 {
+    text-align: center;
+    background-color: rgba(32, 70, 240, 0.568);
+    color: rgb(255, 255, 255);
+
+}
+
+
+#másodiksav2  .button {
+    background-color: white;
+    color: rgba(32, 70, 240, 0.568);
+
+}
+
+#másodiksav2 h1 {
+    margin: 0;
+    font-size: 400%;
+    
+    padding-top: 1em;
+}
+
+
+
+/*képgaléria sáv div-ek*/
+
+
+
+#másodiksav2>div {
+    display: flex;
+
+}
+
+#másodiksav2>div div {
+    margin: 1em;
+}
+
+#másodiksav2>div div  img{
+    max-width: 100%;
+}
+
+
+#másodiksav2 a{
+    width: 33%;
+    display: block;
+    margin:  0.5em auto;
+    padding:  .5em;
+    
+}
