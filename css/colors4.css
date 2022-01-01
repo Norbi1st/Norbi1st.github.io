@@ -143,10 +143,10 @@ a.link:hover,
 	background: rgba(104, 4, 161, 0.589);
 }
 .main-nav:before {
-	background: url(../images/brd_2.png);
+	background: url(../images/brd2_4.png);    /*(../images/brd_2.png);*/
 }
 .main-nav .nav-right-block:before {
-	background: url(../images/brd2_2.png);	
+	background: url(../images/brd2_4.png);	
 }
 /*bg color shades*/
 .bg1 {
