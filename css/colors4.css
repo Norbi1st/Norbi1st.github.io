@@ -98,7 +98,7 @@ a.link:hover,
 .theme-menu button.btn,
 
 .go-to-top {
-	background: rgba(104, 4, 161, 0.589);
+	background: #6704a1;
 }
 
 
@@ -137,10 +137,10 @@ a.link:hover,
 }
 
 .main-nav.home2 {
-	background: rgba(104, 4, 161, 0.589);  /*rgba(241, 182, 1, 0.2);*/
+	background: rgba(104, 4, 161, 0.589);   /*rgba(241, 182, 1, 0.2);*/     /*#6804a196;*/
 }
 .main-nav .nav-right-block {
-	background: rgba(104, 4, 161, 0.589);
+	background: rgba(104, 4, 161, 0.589); 
 }
 .main-nav:before {
 	background: url(../images/brd2_4.png);    /*(../images/brd_2.png);*/
@@ -150,10 +150,10 @@ a.link:hover,
 }
 /*bg color shades*/
 .bg1 {
-	background:  #66049f96; 
+	background:  rgba(104, 4, 161, 0.589);
 }
 .bg2 {
-	background: rgba(104, 4, 161, 0.589);
+	background: rgba(104, 4, 161, 0.588);
 }
 .bg3 {
 	background: rgba(104, 4, 161, 0.589);
