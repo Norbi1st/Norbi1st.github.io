@@ -358,7 +358,7 @@ h1.loader2 {
 .nav-opener:active,
 .nav-opener:focus,
 .nav-opener:visited {
-  color: #fff;
+  color: #fff; /*#c10a28 ;*/
 }
 #cooking {
   position: relative;

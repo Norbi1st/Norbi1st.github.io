@@ -90,12 +90,12 @@ display:block; float:left; padding:0px 8px 0px 8px; margin:0 14px 0 14px;height:
 width:980px;
 height:15px;
 padding:5px 10px 0 20px;
-color:#333333;
+color: #333333;  /*#a53d17 ;*/
 background:url(images/navbullet.png) no-repeat left;
 background-position:5px 8px;
 }
 .crumb_navigation a{
-color:#0fa0dd;
+color:#0fa0dd;  /* */
 text-decoration:underline;
 }
 span.current{
