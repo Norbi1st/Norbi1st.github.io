@@ -7,7 +7,8 @@
 
   <style>
     .collapsible {
-      background-color: rgb(61, 78, 122);/*rgba(6, 119, 184, 0.267);*/
+      background-color: rgb(61, 78, 122);
+      /*rgba(6, 119, 184, 0.267);*/
       color: white;
       cursor: pointer;
       padding: 18px;
@@ -20,28 +21,28 @@
     }
 
 
-  .collapsible ,img  {
-  
-  
-    }
+    .collapsible,
+    img {}
 
 
 
- /*   .collapsible ,img, h1{
+    /*   .collapsible ,img, h1{
    color: rgb(59, 238, 14);
-  }*/   
- 
+  }*/
 
- 
-  .szin {
-  color: rgb(255, 255, 255);/*rgba(14, 74, 238, 0.822);*/
-  display: inline-block;
-  margin: 0 ;
-   padding: 0 0 0px 60px;
-   vertical-align:10px;
-   max-width: 100%;
-   
-  }
+
+
+    .szin {
+      color: rgb(255, 255, 255);
+      /*rgba(14, 74, 238, 0.822);*/
+      display: inline-block;
+      margin: 0;
+      padding: 0 0 0px 60px;
+      vertical-align: 0px;
+
+
+
+    }
 
 
 
@@ -50,7 +51,8 @@
 
     .active,
     .collapsible:hover {
-      background-color: rgb(93, 119, 186);/*rgba(0, 131, 207, 0.507);*/
+      background-color: rgb(93, 119, 186);
+      /*rgba(0, 131, 207, 0.507);*/
     }
 
     .content {
@@ -59,88 +61,351 @@
       overflow: hidden;
       background-color: #f1f1f1;
     }
-  
+
+    /*---------------------------------------------------------------*/
+
+    /*responsiv kod*/
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    /*responsiv kod end*/
+
+    /*----------------------------------------------------------------*/
+
+    /*avatar kép   h2 Avatar Images  /h2  */
+    .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      /*50%*/
+    }
+
+    /*avatar kép end*/
+
+    /*---------------------------------------------------------------------*/
+  </style>
+
+
+  <!--<img src="img_nature.jpg" alt="Nature" class="responsive" width="600" height="400">-->
+
+
+
+
+
+
+
   </style>
 
 
 </head>
+
 <body>
 
-  <h2>Collapsibles</h2>
 
-    <!--<p>A Collapsible:</p>-->
-  <button  type="button" class="collapsible"> <img   src="/indexImages/imgN258.png" alt="ssfsfs"> <h2   class="szin" >Mártás </h2>  </button>
-  <div class="content">
-    <img style="max-width: 100%;" src="" alt="xcxx">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p> 
-  </div>
 
- <!--<p>Collapsible Set:</p>-->   
-  <button type="button" class="collapsible"><img  src="/indexImages/imgN258.png" alt="ssfsfs"> <h2 class="szin" >Mártás </h2> Open Section 1</button>
+
+
+
+  <h1 style="font-size: 70px;">Recept kőnyv</h1>
+
+  <!--<p>A Collapsible:</p>-->
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Vinaigrette</h2>
+  </button>
   <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>   <img src="/indexImages/imgN56.png" alt="ssfsfs">
-  </div>
-  <button type="button" class="collapsible"><img   src="/indexImages/imgN258.png" alt="ssfsfs"> <h2 class="szin" >Mártás </h2> Open Section 2</button>
-  <div class="content">
+
+    <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_028.png" alt="vinigtrette" class="responsive"
+      width="600" height="400">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat.</p>
   </div>
-  <button type="button" class="collapsible"> <img   src="/indexImages/imgN252.png" alt="ssfsfs">    Open Section 3</button>
+
+
+
+
+  <!--<p>Collapsible Set:</p>-->
+  <button type="button" class="collapsible"><img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Mustáros Mártás </h2>
+  </button>
   <div class="content">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>   <img src="/indexImages/imgN56.png" alt="ssfsfs">
+      consequat.</p> <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_029.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/Norbi.jpg" alt="Avatar" class="avatar">
+    <h2 class="szin"> Ravigote Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p> <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_030.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+
+  </div>
+  <button type="button" class="collapsible"><img src="/indexImages/Norbi.jpg" alt="Avatar" class="avatar">
+    <h2 class="szin">Majonéz </h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p> <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_031.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Tartár Mártás </h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p> <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_032.png" alt="vinigtrette"
+      class="responsive" width="600" height="400"> 
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_033.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+
+  <!--<p>Collapsible Set:</p>-->
+  <button type="button" class="collapsible"><img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Gribiche Mártás </h2> 
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p> <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_034.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"><img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Torma Mártás </h2> 
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_035.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Zöld Mártás </h2> 
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_036.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_037.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Besamel Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_038.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Mornay Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_039.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Soubise  Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_040.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_041.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Hollandi Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_042.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_043.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Mousseline Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_044.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Máltai Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_045.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Fehérbor Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_046.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_047.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Bevonó Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_047.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Béarni Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_048.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_049.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Choron Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_050.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Foyot Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_051.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Fehérvaj Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_052.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Nantes-i Vajmártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_053.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin">Vaj Borárus Módra</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_054.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+      <img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_055.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_055.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_05.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_05.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_05.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_05.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_05.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
+  </div>
+  <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+    <h2 class="szin"> Mártás</h2>
+  </button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p><img src="/imagesgroup/chef/Bocuse-A főzés magasiskolája_Oldal_05.png" alt="vinigtrette"
+      class="responsive" width="600" height="400">
   </div>
 
 
 
- 
-
- 
-  <button  type="button" class="collapsible"> <img   src="/indexImages/imgN258.png" alt="ssfsfs"> <h2 class="szin" >Mártás </h2>  </button>
-  <div class="content">
-    <img src="/1w3schools/img/pexels-timur-kozmenko-2474690   indonézia.jpg" alt="xcxx">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p> 
-  </div>
-
- <!--<p>Collapsible Set:</p>-->   
-  <button type="button" class="collapsible"><img  src="/indexImages/imgN258.png" alt="ssfsfs"> <h2 class="szin" >Mártás </h2> Open Section 1</button>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>   <img src="/indexImages/imgN56.png" alt="ssfsfs">
-  </div>
-  <button type="button" class="collapsible"><img   src="/indexImages/imgN258.png" alt="ssfsfs"> <h2 class="szin" >Mártás </h2> Open Section 2</button>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-  </div>
-  <button type="button" class="collapsible">  <img   src="/indexImages/imgN259.png" alt="ssfsfs"> <h2 class="szin" ></h2>    Open Section 3</button>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>   <img src="/indexImages/imgN56.png" alt="ssfsfs">
-  </div>
-  <button type="button" class="collapsible">  <img   src="/indexImages/imgN259.png" alt="ssfsfs"> <h2 class="szin" ></h2>    Open Section 3</button>
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>   <img src="/indexImages/imgN56.png" alt="ssfsfs">
-  </div>
 
 
 
-  
-
- 
   <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
