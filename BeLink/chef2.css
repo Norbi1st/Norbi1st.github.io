@@ -1,0 +1,46 @@
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image: url('/1w3schools/img/pexels-timur-kozmenko-2474690   indonézia.jpg');
+  background-color: rgba(7, 58, 168, 0.397); /* Fallback color */
+  background-color: rgba(194, 207, 11, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(13, 128, 173, 0.521);  /*rgba(13, 173, 34, 0.521);*/
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(11, 66, 170);
+  width: 90%;   /*Szélesége*/
+  height: 40000px; /*hoszusága*/
+
+ 
+
+}
+
+/* The Close Button */
+.close {
+  color: rgb(27, 59, 202);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(24, 21, 161);
+  text-decoration: none;
+  cursor: pointer;
+}
