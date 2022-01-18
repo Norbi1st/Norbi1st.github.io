@@ -1,0 +1,52 @@
+.KépGomb {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+
+}
+ 
+}
+
+.KépGomb img {
+  width: 100%;
+  height: auto;
+  
+}
+}
+
+.KépGomb .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+}
+}
+
+.KépGomb .btn:hover {
+  background-color: black;
+}
+
+
+.aLink{
+  padding: 2px 2px 2px 2px;
+}
+
+.aLink  a{
+  margin: 10px 30px 0px 10px;
+  
+ 
+}
+
+.aLink h1{
+ font-size: 60px; 
+}

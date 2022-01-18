@@ -1,0 +1,62 @@
+.collapsible {
+  background-color: rgba(6, 119, 184, 0.267);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 4px;
+
+
+}
+
+
+
+
+
+
+
+
+.collapsible ,img  {
+
+
+}
+
+
+
+/*   .collapsible ,img, h1{
+color: rgb(59, 238, 14);
+}*/   
+
+
+.szin {
+  color: rgba(14, 74, 238, 0.822);
+display: inline-block;
+margin: 0 ;
+padding: 0 0 0px 60px;
+vertical-align:10px;
+}
+
+
+
+
+
+
+
+.active,
+.collapsible:hover {
+  background-color: rgba(0, 131, 207, 0.507);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #ffffff;
+
+ 
+}
+}

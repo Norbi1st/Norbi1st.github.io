@@ -1,0 +1,27 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    border: solid 1px rgb(0, 47, 255); 
+    padding:40px ;
+}
+
+[class*="col-"]{
+    padding: 40px;
+    float: left;
+    border: solid 1px rgb(0, 47, 255);  
+}
+
+
+
+.col-1{width:8.33%;}
+.col-2{width:46.66%;}
+.col-3{width:35%;}
+.col-4{width:8.33;}
+.col-5{56.66};
+.col-6{27.33};
