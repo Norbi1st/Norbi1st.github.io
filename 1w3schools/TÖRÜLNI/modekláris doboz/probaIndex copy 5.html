@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grid box</title>
+<!-- CSS only -->
 
 
     <style>
@@ -19,10 +20,12 @@
 
             font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
             background-image: url('/imagesgroup/pexels-baskin-creative-studios-1766838.jpg');
-            background-size: 100% 100%;
+            background-size: 100% 100%;  /*cover*/
             background-attachment: fixed;
 
             background-repeat: no-repeat;
+            background-position:center center ;
+
         }
     </style>
 
@@ -68,7 +71,7 @@
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(167, 253, 8, 0.671);
             z-index: 1;
-        }
+           
 
         .dropdown-content a {
             color: rgb(1, 131, 1);
@@ -127,39 +130,39 @@
 
 
 
-    <style>
-        [class*="col-"] {
-            float: left;
-            padding: ;
-            border: rgb(5, 60, 211) 1px solid;
-            margin: ;
-        }
+<style>
+    [class*="col-"] {
+        float: left;
+        padding: ;
+        border: rgb(5, 60, 211) 1px solid;
+        margin: ;
+    }
 
 
-        .col-1 {
-            width: 68%;
-        }
+    .col-1 {
+        width: 68%;
+    }
 
-        .col-2 {
-            width: 15%;
-        }
+    .col-2 {
+        width: 15%;
+    }
 
-        .col-3 {
-            width: 28%;
-        }
+    .col-3 {
+        width: 28%;
+    }
 
-        .col-4 {
-            width: 30%;
-        }
+    .col-4 {
+        width: 30%;
+    }
 
-        .col-5 {
-            width: 30%;
-        }
+    .col-5 {
+        width: 30%;
+    }
 
-        .col-6 {
-            width: 100%;
-        }
-    </style>
+    .col-6 {
+        width: 100%;
+    }
+</style>
 
 
 
@@ -172,14 +175,14 @@
       background-color: rgb(22, 91, 221);
       color: white;
       cursor: pointer;
-      padding: 18px;
+      padding: 18px ;
       width: 32.4%;
       border: none;
       text-align: left;
       outline: none;
-      font-size: 15px;
+      font-size: 25px;
 
-
+      float: left;
       margin: 4px;
       
     }
@@ -194,6 +197,7 @@
       overflow: hidden;
       transition: max-height 0.2s ease-out;
       background-color: #f1f1f1;
+     
     }
     </style>
 
@@ -220,13 +224,14 @@
 
         .fehérhátér2 {
             background-color: rgba(255, 255, 255, 0.575);
-            width: 1200px;
+            width: 1980px;
             height: 900px;
         }
         .fehérhátér3 {
             background-color: rgba(4, 119, 250, 0.575);
-            width: 1200px;
-            height: 1000px;
+            width: 1980px;
+            height: auto;
+          
         }
 
         .img,
@@ -239,6 +244,18 @@
             padding-right: 28.5px;
         }
     </style>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -395,33 +412,27 @@
 
 
    <!--összcsukható-->
-    <section>
-        <div  class="col-6">
-          
+   <section>
+    <div  class="col-6">
+      
 
-            <div style="width: 100%;" class="fehérhátér3">
+        <div style="width: 100%;" class="fehérhátér3">
                 
                
 
-                <h2>Animated Collapsibles</h2>
+           
 
-              
-
-
-
-
-
-
+        
 
 
 <!--1-->
 
-                <button class="collapsible">Open Collapsible</button>
+                <button  class="collapsible">Open Collapsible  elsö div</button>
                 <div class="content">
 
 
 
-                    <img  src="/Nosztalgia Kőnyv/534.png" alt="vinigtrette" class="responsive"  width="100%"  height="auto">
+                    <img src="/Nosztalgia Kőnyv/534.png" alt="vinigtrette" class="responsive"  width="100%"  height="auto">
 
 
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -430,21 +441,20 @@
  <!--2-->
  
  
-                <button class="collapsible">Open Collapsible</button>
-                <div class="content">
-
-
-
-                    <img  src="/Nosztalgia Kőnyv/534.png" alt="vinigtrette" class="responsive"  width="100%"  height="auto">
-
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
+       
   
   
   <!--3-->
+
+
+                <button class="collapsible">Open Collapsible  33</button>
+                <div class="content">
+                    <img  src="/Nosztalgia Kőnyv/534.png" alt="vinigtrette" class="responsive"  width="100%"  height="auto">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+  <!--3-->
   
-                <button class="collapsible">Open Collapsible</button>
+                <button class="collapsible">Open Collapsible  33</button>
                 <div class="content">
 
 
@@ -470,13 +480,6 @@
                 </div>
                 
                 
-
-
-
-
-
-
-
 
 
 
@@ -513,31 +516,32 @@
 
 
 
+   
+
+<!--LETÖLTÉSI LINK KAT KÉPRE JÓ-->
+   <p>Click on the w3schools logo to download the image:<p>
+
+    <a href="/pexels-timur-kozmenko-2474690   indonézia.jpg" download>
+      <img src="/pexels-timur-kozmenko-2474690   indonézia.jpg" alt="W3Schools" width="104" height="142">
+    </a>
+    
+    <p><b>Note:</b> The download attribute is not supported in Edge version 12, IE, Safari 10 (and earlier), or Opera version 12 (and earlier).</p>
+    
 
 
 
 
 
 
+    
+     
+    
+    
+    
+    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- JavaScript Bundle with Popper -->
 
     <script>
         var coll = document.getElementsByClassName("collapsible");
@@ -556,6 +560,7 @@
         }
         </script>
 
+<!-- JavaScript Bundle with Popper -->
 
 </body>
 </html>
