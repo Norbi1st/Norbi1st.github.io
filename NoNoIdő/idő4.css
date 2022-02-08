@@ -60,8 +60,8 @@
     
     
     );
-    margin: 0.4rem 5rem 4rem; /*5 rem a széleség*/
-    font-size: 7rem;
+    margin: 0.4rem 1rem 4rem; /*5 rem a széleség*/
+    font-size: 5rem;  /*7 rem szám méret*/
     font-weight: 400;
     display: flex;
     justify-content: center;
