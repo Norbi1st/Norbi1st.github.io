@@ -6,8 +6,9 @@
     <link rel="shortcut icon" href="images/fav2.ico" type="image/x-icon">
     <link rel="icon" href="images/fav2.ico" type="image/x-icon">
 
-    <style>
+    <script src="https://kit.fontawesome.com/d0e059f72c.js" crossorigin="anonymous"></script>
 
+    <style>
         .hátér2 {
             background-image: url('/1w3schools/img/pexels-timur-kozmenko-2474690   indonézia.jpg');
             background-repeat: no-repeat;
@@ -22,12 +23,14 @@
             color: white;
             cursor: pointer;
             padding: 18px;
-            width: 27%;      /*31%  mENÜ BAL SZÉLE NÉLKÜLI ÉRTÉK 3 OSZLOP  */
+            width: 27%;
+            /*31%  mENÜ BAL SZÉLE NÉLKÜLI ÉRTÉK 3 OSZLOP  */
             border: none;
             text-align: left;
             outline: none;
             font-size: 15px;
-            margin: 10px 10px 10px 70px;  /*20px  BAL SZÉLE MENÜ*/
+            margin: 10px 10px 10px 70px;
+            /*20px  BAL SZÉLE MENÜ*/
         }
 
 
@@ -54,7 +57,7 @@
         /*margin: 10px 10px 10px 460px;*/
         h1 {
             color: rgb(255, 255, 255);
-            padding-left: 100px;  
+            padding-left: 100px;
 
         }
 
@@ -141,7 +144,7 @@
             font-size: 16px;
             border: none;
             cursor: pointer;
-           
+
 
 
         }
@@ -163,46 +166,55 @@
             border: none;
             border-bottom: 1px solid #ddd;
 
- 
+
         }
 
         #myInput:focus {
-            outline: 3px solid rgba(2, 187, 17, 0.685);/*#ddd;*/
+            outline: 3px solid rgba(2, 187, 17, 0.685);
+            /*#ddd;*/
         }
 
         .dropdown {
-            position:  fixed ; /*    (EREDETI relative )     ETÖL FIX AZ EGÉSZ   */
+            position: fixed;
+            /*    (EREDETI relative )     ETÖL FIX AZ EGÉSZ   */
             display: inline-block;
 
             padding-top: 16%;
-         
+
 
         }
 
         .dropdown-content {
             display: none;
-            position:absolute ;/**/
-            background-color: rgba(9, 79, 230, 0.663);   /*hátér szín legördülö sáv  #f6f6f6;    */
+            position: absolute;
+            /**/
+            background-color: rgba(9, 79, 230, 0.663);
+            /*hátér szín legördülö sáv  #f6f6f6;    */
             min-width: 230px;
-            overflow: auto;             /*  overflow-y: auto;   LEGÖRDÜLÖ MENÜ KÓD*/
-            border: 1px solid rgba(3, 51, 141, 0.883);/*#ddd;*/
+            overflow: auto;
+            /*  overflow-y: auto;   LEGÖRDÜLÖ MENÜ KÓD*/
+            border: 1px solid rgba(3, 51, 141, 0.883);
+            /*#ddd;*/
             z-index: 1;
 
-            height: 400px;  /*Legördülö menü meghatározás*/
-          
+            height: 400px;
+            /*Legördülö menü meghatározás*/
+
         }
 
         .dropdown-content a {
-            color: rgb(255, 255, 255);    /*color: black;  Betük*/
+            color: rgb(255, 255, 255);
+            /*color: black;  Betük*/
             padding: 12px 16px;
             text-decoration: none;
             display: block;
-          
+
 
         }
 
         .dropdown a:hover {
-            background-color: rgba(0, 31, 170, 0.657);/*#ddd; hátér árnyék egész*/
+            background-color: rgba(0, 31, 170, 0.657);
+            /*#ddd; hátér árnyék egész*/
         }
 
         .show {
@@ -226,7 +238,7 @@
 
 <body class="hátér2">
 
-    
+
     <!-- <background-image> <img src="/img9.png" alt="qqeqq">     </background-image>-->
 
 
@@ -234,13 +246,25 @@
 
 
     <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"> KA </button>
+        <button onclick="myFunction()" class="dropbtn">
+
+
+            <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+
+
+
+        </button>
+
+
+
+
+
         <div id="myDropdown" class="dropdown-content">
             <input type="text" placeholder="Keresö.." id="myInput" onkeyup="filterFunction()">
-           
-           
-           
-           
+
+
+
+
             <a href="#blog">RECEPT KŐNYV</a>
             <a href="#ce1">Vinaigrette</a>
             <a href="#ce2">Mustáros Mártás</a>
@@ -286,7 +310,7 @@
             <a href="#ce40">Hollanddi Mártás</a>
             <a href="#ce41">Modern "Panír"</a>
             <a href="#ce42">Nővényí Színezök</a>
-            <a href="#ce43">3. FEJEZET  hŐKEZELÉS</a>
+            <a href="#ce43">3. FEJEZET hŐKEZELÉS</a>
             <a href="#ce44">Hőkezelés</a>
             <a href="#ce45">Pecsenyesütés</a>
             <a href="#ce46">serpenyőben Sütés</a>
@@ -314,7 +338,7 @@
 
 
 
-        <!--<a href="#ce10">  Mártás</a>
+            <!--<a href="#ce10">  Mártás</a>
             <a href="#ce11">  Mártás</a>
             <a href="#ce12"> Mártás</a>
             <a href="#ce13"> Mártás</a>
@@ -353,7 +377,7 @@
             <a href="#ce46"> Mártás</a>
             <a href="#ce47"> Mártás</a>
             <a href="#ce48"> Mártás</a>
-            <a href="#ce49"> Mártás</a>-->    
+            <a href="#ce49"> Mártás</a>-->
 
 
 
@@ -370,7 +394,7 @@
     <br>
     <br>
     <br>
-    <h1  style="font-size: 70px;">RECEPT KŐNYV</h1>
+    <h1 style="font-size: 70px;">RECEPT KŐNYV</h1>
     <hr style="margin: 0 770px 0 70px 	;border: 4px solid rgba(0, 110, 255, 0.473);">
     <br>
     <br>
@@ -386,7 +410,10 @@
 
 
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 id="ce10"  class="szin">Zöldségalaplevek</h2>
+        <h2 id="ce10" class="szin">Zöldségalaplevek
+        </h2>
+
+
     </button>
     <div class="content">
 
@@ -412,7 +439,7 @@
             consequat.</p>
     </div>
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 id="ce12"  class="szin">Zselék Kocsonyák</h2>
+        <h2 id="ce12" class="szin">Zselék Kocsonyák</h2>
     </button>
     <div class="content">
 
@@ -432,7 +459,7 @@
         <h2 id="ce13" class="szin">Fehér Zománcmártá<s></s></h2>
     </button>
     <div class="content">
-        <img  src="/imagesgroup/Fözés Tudománya/img131.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img131.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img132.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img133.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -478,7 +505,7 @@
         <img src="/imagesgroup/Fözés Tudománya/img143.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img144.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img145.jpg" width="100%" height="auto">
-        
+
         <img src="/imagesgroup/Fözés Tudománya/img146.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img147.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -491,13 +518,13 @@
 
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce17" class="szin">Világos Rántás<s></s></h2>
-   
+
     </button>
     <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img146.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img147.jpg" width="100%" height="auto">
 
-       
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -513,11 +540,11 @@
         <img src="/imagesgroup/Fözés Tudománya/img148.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img149.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img150.jpg" width="100%" height="auto">
-       
+
         <img src="/imagesgroup/Fözés Tudománya/img151.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img152.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img153.jpg" width="100%" height="auto">
-        
+
         <img src="/imagesgroup/Fözés Tudománya/img154.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img155.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -528,14 +555,14 @@
     </div>
 
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2  id="ce19"  class="szin">Mornay Mártás<s></s></h2>                                                              
+        <h2 id="ce19" class="szin">Mornay Mártás<s></s></h2>
     </button>
     <div class="content">
-      
+
         <img src="/imagesgroup/Fözés Tudománya/img151.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img152.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img153.jpg" width="100%" height="auto">
-        
+
         <img src="/imagesgroup/Fözés Tudománya/img154.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img155.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -546,13 +573,13 @@
     </div>
 
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 id="ce20"  class="szin">Bársonyos Mártás<s></s></h2>
+        <h2 id="ce20" class="szin">Bársonyos Mártás<s></s></h2>
     </button>
-    <div class="content">  
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img154.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img155.jpg" width="100%" height="auto">
-        
-        
+
+
         <img src="/imagesgroup/Fözés Tudománya/img156.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img157.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -561,13 +588,13 @@
             commodo
             consequat.</p>
     </div>
- 
+
 
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce21" class="szin">Fehérbor Mártás<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img156.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img157.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -580,8 +607,8 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce22" class="szin">Fehérbor Modern Mártás<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img164.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img165.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img168.jpg" width="100%" height="auto">
@@ -596,8 +623,8 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce23" class="szin">Fehérbor M.Gratinozáshoz<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img168.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img169.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img170.jpg" width="100%" height="auto">
@@ -610,11 +637,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce24" class="szin">Halmártás VörösBor Alapon<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img172.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img173.jpg" width="100%" height="auto">
-      
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -622,10 +649,10 @@
             consequat.</p>
     </div>
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 id="ce25"  class="szin">Vörösboros Vaj Mártás<s></s></h2>
+        <h2 id="ce25" class="szin">Vörösboros Vaj Mártás<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img174.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img175.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img176.jpg" width="100%" height="auto">
@@ -640,10 +667,10 @@
 
 
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 id="ce26"  class="szin">Citrusmártás<s></s></h2>
+        <h2 id="ce26" class="szin">Citrusmártás<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img179.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img180.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img181.jpg" width="100%" height="auto">
@@ -658,8 +685,8 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce27" class="szin">Rákmártás<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img182.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img183.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img184.jpg" width="100%" height="auto">
@@ -671,12 +698,12 @@
             consequat.</p>
     </div>
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 id="ce28"  class="szin">Rák Tejszínesmártás<s></s></h2>
+        <h2 id="ce28" class="szin">Rák Tejszínesmártás<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img190.jpg" width="100%" height="auto">
-     
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -686,8 +713,8 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce29" class="szin">Barna Gyümölcsmártások<s></s></h2>
     </button>
-    <div class="content">  
-          
+    <div class="content">
+
         <img src="/imagesgroup/Fözés Tudománya/img195.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img196.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img198.jpg" width="100%" height="auto">
@@ -700,13 +727,29 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 id="ce30" class="szin">BorsMártás<s></s></h2>
     </button>
-    <div class="content">  
-          
-       
+    <div class="content">
+
+
         <img src="/imagesgroup/Fözés Tudománya/img200.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img201.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img207.jpg" width="100%" height="auto">
-     
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 id="ce31" class="szin">BorsMártás<s></s></h2>
+    </button>
+    <div class="content">
+
+
+        <img src="/imagesgroup/Fözés Tudománya/img200.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img201.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img207.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -716,29 +759,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">BorsMártás<s></s></h2>
     </button>
-    <div class="content">  
-          
-       
+    <div class="content">
+
+
         <img src="/imagesgroup/Fözés Tudománya/img200.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img201.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img207.jpg" width="100%" height="auto">
-     
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-    </div>
-    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-        <h2 class="szin">BorsMártás<s></s></h2>
-    </button>
-    <div class="content">  
-          
-       
-        <img src="/imagesgroup/Fözés Tudománya/img200.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img201.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img207.jpg" width="100%" height="auto">
-     
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -748,14 +775,14 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Nyers Pác<s></s></h2>
     </button>
-    <div class="content">  
-          
-       
+    <div class="content">
+
+
         <img src="/imagesgroup/Fözés Tudománya/img211.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img212.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img213.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img214.jpg" width="100%" height="auto">
-     
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -767,10 +794,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">GyosPác MARINÁLÁS<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img215.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img216.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img217.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img217.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -781,10 +808,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Egyszerü Rövid Lé<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img218.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img219.jpg" width="100%" height="auto">
-      
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -795,9 +822,9 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Tejes Rövid lé<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img220.jpg" width="100%" height="auto">
-        
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -808,10 +835,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Zöldséges Rövid Lé<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img221.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img222.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img223.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img222.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img223.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -822,11 +849,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Hidegen Füszervaj<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img224.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img225.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img226.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img227.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img226.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img227.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -837,10 +864,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Melegen K Füszervajak<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img229.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img230.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img231.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img231.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -850,14 +877,14 @@
 
 
 
-    
+
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Töltelékek Gombapép<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img232.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img234.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img235.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img235.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -868,10 +895,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Töltelékek Májas<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img236.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img237.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img238.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img238.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -882,11 +909,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Terrinalap<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img239.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img240.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img241.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img242.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img241.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img242.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -896,11 +923,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Hús Muszlin<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img243.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img244.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img245.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img246.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img245.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img246.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -910,10 +937,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Vajas Muszlin<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img247.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img248.jpg" width="100%" height="auto">
-      
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -922,13 +949,13 @@
     </div>
 
 
-    
+
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Panádos Töltelék<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img249.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img250.jpg" width="100%" height="auto">   
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img249.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img250.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -938,10 +965,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Vinegrett [Emulzios Mártások ]<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img251.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img252.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img253.jpg" width="100%" height="auto">   
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img251.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img252.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img253.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -951,11 +978,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Paradicsomos Vinegrett<s></s></h2>
     </button>
-    <div class="content">            
-        
-        <img src="/imagesgroup/Fözés Tudománya/img253.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img254.jpg" width="100%" height="auto">   
-       
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img253.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img254.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -965,10 +992,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Majónéz Mártás<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img255.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img256.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img257.jpg" width="100%" height="auto">   
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img255.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img256.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img257.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -978,10 +1005,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Montirozott Vaj<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img258.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img259.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img260.jpg" width="100%" height="auto">   
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img258.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img259.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img260.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -991,10 +1018,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Vaj Mártás<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img259.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img260.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img261.jpg" width="100%" height="auto">   
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img259.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img260.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img261.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1004,11 +1031,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Hollandi Mártás<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img262.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img263.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img264.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img265.jpg" width="100%" height="auto">   
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img262.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img263.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img264.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img265.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1018,11 +1045,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Modern "Panir"<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img266.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img267.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img268.jpg" width="100%" height="auto">   
-      
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img266.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img267.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img268.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1032,10 +1059,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Nővényi Színezök<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img269.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img270.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img271.jpg" width="100%" height="auto"> 
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img269.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img270.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img271.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1069,12 +1096,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Hőkezelés<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img272.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img273.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img274.jpg" width="100%" height="auto">   
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img272.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img273.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img274.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1086,18 +1113,18 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Pecsenyesütés<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img275.jpg" width="100%" height="auto">   
-  
-        <img src="/imagesgroup/Fözés Tudománya/img276.jpg" width="100%" height="auto">   
-  
-        <img src="/imagesgroup/Fözés Tudománya/img277.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img278.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img279.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img280.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img281.jpg" width="100%" height="auto">   
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img275.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img276.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img277.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img278.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img279.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img280.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img281.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1107,12 +1134,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Serpenyöben sütés [Szotirozás]<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img282.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img283.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img284.jpg" width="100%" height="auto">   
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img282.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img283.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img284.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1122,12 +1149,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Panirozás<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img285.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img286.jpg" width="100%" height="auto">   
-        
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img285.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img286.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1137,13 +1164,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Lisztben Szelet Sütve<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img287.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img288.jpg" width="100%" height="auto">   
-      
-        
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img287.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img288.jpg" width="100%" height="auto">
+
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1153,14 +1180,14 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Szotírozot H. Saját Mártásával<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img289.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img290.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img291.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img292.jpg" width="100%" height="auto">   
-        
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img289.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img290.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img291.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img292.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1170,16 +1197,16 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Sütét Fedet [ polírozás ]<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img293.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img294.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img295.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img296.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img297.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img298.jpg" width="100%" height="auto">   
-        
-      
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img293.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img294.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img295.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img296.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img297.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img298.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1189,12 +1216,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Grillezés<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img299.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img300.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img301.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img302.jpg" width="100%" height="auto">         
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img299.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img300.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img301.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img302.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1204,12 +1231,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Sütés Bő Olajban [ Frittírozás ]<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img303.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img304.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img305.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img306.jpg" width="100%" height="auto">         
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img303.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img304.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img305.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img306.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1219,11 +1246,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Sütés Zsíradék Nélkül<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img307.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img308.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img309.jpg" width="100%" height="auto">   
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img307.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img308.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img309.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1233,13 +1260,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Bő Sós Vízben Főzés<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img310.jpg" width="100%" height="auto">         
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img311.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img312.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img313.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img310.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img311.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img312.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img313.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1249,13 +1276,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Pasírozás Melegen Índitva<s></s></h2>
     </button>
-    <div class="content">            
-  
-      
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img313.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img314.jpg" width="100%" height="auto">   
-     
+
+
+        <img src="/imagesgroup/Fözés Tudománya/img313.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img314.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1265,13 +1292,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Gomba Fehére Főzése<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img315.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img316.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img317.jpg" width="100%" height="auto">   
-      
+        <img src="/imagesgroup/Fözés Tudománya/img315.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img316.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img317.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1281,14 +1308,14 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Pasírozás Hídeg Vízben <s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img318.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img319.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img320.jpg" width="100%" height="auto">   
-       
-      
+        <img src="/imagesgroup/Fözés Tudománya/img318.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img319.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img320.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1298,12 +1325,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Hal Párolása Rővid Lében<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img321.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img322.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img323.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img321.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img322.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img323.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1313,13 +1340,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Barna Raguk Vagy Mártássok<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img324.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img325.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img326.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img327.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img324.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img325.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img326.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img327.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1329,12 +1356,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Világos Raguk Frikaszé<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img328.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img329.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img330.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img328.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img329.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img330.jpg" width="100%" height="auto">
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
@@ -1345,13 +1372,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Brezírozás<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img331.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img332.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img333.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img334.jpg" width="100%" height="auto">   
+        <img src="/imagesgroup/Fözés Tudománya/img331.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img332.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img333.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img334.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1361,13 +1388,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">A Graten<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img335.jpg" width="100%" height="auto">   
-        <img src="/imagesgroup/Fözés Tudománya/img336.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img337.jpg" width="100%" height="auto">   
-       
+        <img src="/imagesgroup/Fözés Tudománya/img335.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img336.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img337.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1377,10 +1404,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Glaszírozás<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img337.jpg" width="100%" height="auto">      
-     
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img337.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1390,13 +1417,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Ételkészítés Alacsony Hőn<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img338.jpg" width="100%" height="auto">   
+    <div class="content">
 
-        <img src="/imagesgroup/Fözés Tudománya/img339.jpg" width="100%" height="auto">   
-  
-     
+        <img src="/imagesgroup/Fözés Tudománya/img338.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img339.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1406,15 +1433,15 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Ételkészítés Mikrohullám<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img340.jpg" width="100%" height="auto"> 
-  
-        <img src="/imagesgroup/Fözés Tudománya/img341.jpg" width="100%" height="auto"> 
-  
-        <img src="/imagesgroup/Fözés Tudománya/img342.jpg" width="100%" height="auto"> 
-  
-     
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img340.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img341.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img342.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1430,7 +1457,7 @@
     <br>
     <br>
 
-    <h1 style="font-size: 70px;">4. Fejezet  Levesek</h1>
+    <h1 style="font-size: 70px;">4. Fejezet Levesek</h1>
     <hr style="margin: 0 770px 0 70px 	;border: 4px solid rgba(0, 110, 255, 0.473);">
 
     <br>
@@ -1444,10 +1471,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Levesek<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img342.jpg" width="100%" height="auto"> 
-     
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img342.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1457,16 +1484,16 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Erőleves [ Konszomé ]<s></s></h2>
     </button>
-    <div class="content">            
-  
-        <img src="/imagesgroup/Fözés Tudománya/img343.jpg" width="100%" height="auto"> 
-  
-        <img src="/imagesgroup/Fözés Tudománya/img344.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img345.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img346.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img347.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img348.jpg" width="100%" height="auto"> 
-     
+    <div class="content">
+
+        <img src="/imagesgroup/Fözés Tudománya/img343.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img344.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img345.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img346.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img347.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img348.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1476,12 +1503,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Zöldségpüré Levesek<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img349.jpg" width="100%" height="auto"> 
-  
-        <img src="/imagesgroup/Fözés Tudománya/img350.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img351.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img352.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img349.jpg" width="100%" height="auto">
+
+        <img src="/imagesgroup/Fözés Tudománya/img350.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img351.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img352.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1491,10 +1518,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Zöldség Darabos Z. Levesek<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img353.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img354.jpg" width="100%" height="auto"> 
-        <img src="/imagesgroup/Fözés Tudománya/img355.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img353.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img354.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img355.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1504,11 +1531,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Krém Levesek [Veluték ]<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img356.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img357.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img358.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img359.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img356.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img357.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img358.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img359.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1518,12 +1545,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Rák Leves<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img360.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img361.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img362.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img363.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img364.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img360.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img361.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img362.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img363.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img364.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1533,11 +1560,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Regionái Leves<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img365.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img366.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img367.jpg" width="100%" height="auto">     
-      
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img365.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img366.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img367.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1553,7 +1580,7 @@
     <br>
     <br>
 
-    <h1 style="font-size: 70px;">5. Fejezet  Előételek</h1>
+    <h1 style="font-size: 70px;">5. Fejezet Előételek</h1>
     <hr style="margin: 0 770px 0 70px  	;border: 4px solid rgba(0, 110, 255, 0.473);">
 
     <br>
@@ -1569,8 +1596,8 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Elöételek<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img368.jpg" width="100%" height="auto">       
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img368.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1582,9 +1609,9 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Nyesrs Zöldségfélék<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img369.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img370.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img369.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img370.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1596,11 +1623,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Vegyes Saláták<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img371.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img372.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img373.jpg" width="100%" height="auto">     
-      
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img371.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img372.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img373.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1613,9 +1640,9 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Zöldség Görögmodra<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img374.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img375.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img374.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img375.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img376.jpg" width="100%" height="auto">
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -1629,12 +1656,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Aszpikolt És Kocsonyázott Ét.<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img377.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img378.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img377.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img378.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img379.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img380.jpg" width="100%" height="auto">     
-     
+        <img src="/imagesgroup/Fözés Tudománya/img380.jpg" width="100%" height="auto">
+
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
@@ -1647,10 +1674,10 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">libamájterrin<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img381.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img382.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img383.jpg" width="100%" height="auto">     
+        <img src="/imagesgroup/Fözés Tudománya/img383.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img384.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
@@ -1663,12 +1690,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Hústerrin<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img385.jpg" width="100%" height="auto">     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img385.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img386.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img387.jpg" width="100%" height="auto">     
+        <img src="/imagesgroup/Fözés Tudománya/img387.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img388.jpg" width="100%" height="auto">
-      
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1680,11 +1707,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Sós Torta Omlos T.<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img389.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img390.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img391.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img392.jpg" width="100%" height="auto">    
+        <img src="/imagesgroup/Fözés Tudománya/img391.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img392.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1696,11 +1723,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Meleg Előételek Leveles T.<s></s></h2>
     </button>
-    <div class="content">            
+    <div class="content">
         <img src="/imagesgroup/Fözés Tudománya/img393.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img394.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img395.jpg" width="100%" height="auto">     
-   
+        <img src="/imagesgroup/Fözés Tudománya/img395.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1712,13 +1739,13 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Rácsos Tészta Szardellávl<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img396.jpg" width="100%" height="auto">    
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img396.jpg" width="100%" height="auto">
         <img src="/imagesgroup/Fözés Tudománya/img397.jpg" width="100%" height="auto">
-        <img src="/imagesgroup/Fözés Tudománya/img398.jpg" width="100%" height="auto">     
-        <img src="/imagesgroup/Fözés Tudománya/img399.jpg" width="100%" height="auto">     
-   
-   
+        <img src="/imagesgroup/Fözés Tudománya/img398.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img399.jpg" width="100%" height="auto">
+
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1730,11 +1757,11 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">Töltött Palacsinták<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img400.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img401.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img402.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img403.jpg" width="100%" height="auto">  
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img400.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img401.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img402.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img403.jpg" width="100%" height="auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1745,12 +1772,12 @@
     <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
         <h2 class="szin">A Krokett<s></s></h2>
     </button>
-    <div class="content">            
-        <img src="/imagesgroup/Fözés Tudománya/img404.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img405.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img406.jpg" width="100%" height="auto">  
-        <img src="/imagesgroup/Fözés Tudománya/img407.jpg" width="100%" height="auto">  
-     
+    <div class="content">
+        <img src="/imagesgroup/Fözés Tudománya/img404.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img405.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img406.jpg" width="100%" height="auto">
+        <img src="/imagesgroup/Fözés Tudománya/img407.jpg" width="100%" height="auto">
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -1772,104 +1799,105 @@
 
 
 
-<!--inét bemásolva ide-->
+    <!--inét bemásolva ide-->
 
 
 
 
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Tésztával Bundázot M.Előétel</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img408.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img410.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img411.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img412.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Tésztával Bundázot M.Előétel</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img408.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img410.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img411.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img412.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
 
 
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Bundázott Panírozott</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img413.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img414.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img415.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img416.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Bundázott Panírozott</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img413.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img414.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img415.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img416.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-
-
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Sós Felfújt Szúflé</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img417.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img418.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img419.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img420.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img421.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
 
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Ravioli</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img422.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img423.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img424.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img425.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Sós Felfújt Szúflé</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img417.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img418.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img419.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img420.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400"><img src="/imagesgroup/Fözés Tudománya/img421.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
 
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Felfújt "Fánkok"</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img426.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img427.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Gnocchi IDE   </h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img428.jpg  " alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img429.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img430.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Ravioli</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img422.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img423.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img424.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img425.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Felfújt "Fánkok"</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img426.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img427.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Gnocchi IDE </h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img428.jpg  " alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img429.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img430.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
 
 
@@ -1891,561 +1919,165 @@
     <br>
     <br>
 
-    
-
-
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Tojás ételek</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img431.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Héjában Főtt Tojások</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img432.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img433.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img434.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-
-
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Héj nélkül Készült</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img435.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img436.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img437.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img438.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
 
 
 
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Tojás Formában</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img439.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img440.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Tükörtojás</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img441.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img442.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img443.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Fríttirozott</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img444.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img445.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img446.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Omlett</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img447.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img448.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img449.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img450.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Tojáslepény</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img450.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img451.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img452.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img453.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Tojáslepény</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img450.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img451.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img452.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img453.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Habart Tojás</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img454.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img455.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img456.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Tojás ételek</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img431.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Héjában Főtt Tojások</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img432.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img433.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img434.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<h1 style="font-size: 70px;">10. Fejezet : Köretek</h1>
-<hr style="margin: 0 770px 0 70px  	;border: 4px solid rgba(0, 110, 255, 0.473);">
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Héj nélkül Készült</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img435.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img436.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img437.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img438.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
 
 
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Tojás Formában</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img439.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img440.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Tükörtojás</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img441.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img442.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img443.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Fríttirozott</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img444.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img445.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img446.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Omlett</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img447.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img448.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img449.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img450.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Tojáslepény</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img450.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img451.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img452.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img453.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Tojáslepény</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img450.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img451.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img452.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400"><img
+            src="/imagesgroup/Fözés Tudománya/img453.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Habart Tojás</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img454.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img455.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img456.jpg"
+            alt="vinigtrette" class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
 
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <h1 style="font-size: 70px;">10. Fejezet : Köretek</h1>
+    <hr style="margin: 0 770px 0 70px  	;border: 4px solid rgba(0, 110, 255, 0.473);">
 
-
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Köretek</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img457.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img458.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Zöldségek elökészitése</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img459.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin"></h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img458.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img459.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Fokhagyma </h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img459.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img460.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Articsóka </h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img460.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Spárga</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img461.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Padlizsán</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img462.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">cékla</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img462.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Mángold</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img463.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Sárgarépa</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img463.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img464.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Szárzeller</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img464.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Zellergumó</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img465.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Gombák Csiperke</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img465.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img466.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Erdei Gombák</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img466.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Szarvas Gomba</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img467.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Szelidgesztenye</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img468.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Kell K. -Fejes Káposzta</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img468.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Lilla Káposzta</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img469.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Kelbimbó</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img469.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Brokoli</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img469.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img470.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin"> Karfiol</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img470.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin"> Kigyóuborka</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img470.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img471.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Cukkini</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img471.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">Vízítorma</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img471.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400"><img src="/imagesgroup/Fözés Tudománya/img472.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">A SARLOTTA</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img472.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
-<button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
-    <h2 class="szin">A S</h2>
-</button>
-<div class="content"><img src="/imagesgroup/Fözés Tudománya/img666.jpg" alt="vinigtrette" class="responsive" width="600"
-        height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img667.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img472.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img668.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img669.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img670.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img671.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img672.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img673.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img674.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img675.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img676.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img677.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img678.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img679.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img680.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img681.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img682.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img683.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img684.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img685.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img686.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img687.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img688.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img689.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img690.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img691.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img692.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img693.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img694.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img695.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img696.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/imagesgroup/Fözés Tudománya/img697.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img698.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img699.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img700.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img701.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img702.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img703.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img704.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img705.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img706.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img707.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img708.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img709.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img710.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img711.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img713.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img714.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img715.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img716.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img717.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img718.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img719.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img720.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img721.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img722.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img723.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img724.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img725.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img726.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img727.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img728.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img729.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img730.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img731.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img732.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img733.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img734.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img735.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img736.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img737.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img738.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img739.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img740.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img741.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img742.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img743.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img744.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img745.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img746.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img747.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img748.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img749.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img750.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img751.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img752.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img753.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <img src="/imagesgroup/Fözés Tudománya/img754.jpg" alt="vinigtrette" class="responsive" width="600" height="400">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo
-        consequat.</p>
-</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
 
@@ -2454,7 +2086,498 @@
 
 
 
-<!--inét bemásolva qdig vége itt-->    <!--VÉGE ITT-->
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Köretek</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img457.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img458.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Zöldségek elökészitése</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img459.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin"></h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img458.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img459.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Fokhagyma </h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img459.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img460.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Articsóka </h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img460.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Spárga</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img461.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Padlizsán</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img462.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">cékla</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img462.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Mángold</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img463.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Sárgarépa</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img463.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img464.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Szárzeller</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img464.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Zellergumó</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img465.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Gombák Csiperke</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img465.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img466.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Erdei Gombák</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img466.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Szarvas Gomba</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img467.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Szelidgesztenye</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img468.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Kell K. -Fejes Káposzta</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img468.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Lilla Káposzta</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img469.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Kelbimbó</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img469.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Brokoli</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img469.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img470.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin"> Karfiol</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img470.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin"> Kigyóuborka</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img470.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img471.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Cukkini</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img471.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">Vízítorma</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img471.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400"><img src="/imagesgroup/Fözés Tudománya/img472.jpg" alt="vinigtrette"
+            class="responsive" width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">A SARLOTTA</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img472.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+    <button type="button" class="collapsible"> <img src="/indexImages/imgN272.png" alt="Avatar" class="avatar">
+        <h2 class="szin">A S</h2>
+    </button>
+    <div class="content"><img src="/imagesgroup/Fözés Tudománya/img666.jpg" alt="vinigtrette" class="responsive"
+            width="600" height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img667.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img472.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img668.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img669.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img670.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img671.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img672.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img673.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img674.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img675.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img676.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img677.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img678.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img679.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img680.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img681.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img682.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img683.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img684.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img685.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img686.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img687.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img688.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img689.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img690.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img691.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img692.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img693.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img694.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img695.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img696.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/imagesgroup/Fözés Tudománya/img697.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img698.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img699.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img700.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img701.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img702.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img703.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img704.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img705.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img706.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img707.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img708.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img709.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img710.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img711.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img712.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img713.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img714.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img715.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img716.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img717.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img718.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img719.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img720.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img721.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img722.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img723.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img724.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img725.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img726.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img727.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img728.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img729.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img730.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img731.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img732.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img733.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img734.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img735.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img736.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img737.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img738.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img739.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img740.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img741.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img742.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img743.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img744.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img745.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img746.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img747.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img748.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img749.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img750.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img751.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img752.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img753.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <img src="/imagesgroup/Fözés Tudománya/img754.jpg" alt="vinigtrette" class="responsive" width="600"
+            height="400">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+    </div>
+
+
+
+
+
+
+
+
+    <!--inét bemásolva qdig vége itt-->
+    <!--VÉGE ITT-->
 
 
 
@@ -3670,31 +3793,31 @@
 
 
 
-  <!--legördülö menü keresö sáv-->
+    <!--legördülö menü keresö sáv-->
 
-  <script>
-    /* When the user clicks on the button,
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
 
-    function filterFunction() {
-        var input, filter, ul, li, a, i;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        div = document.getElementById("myDropdown");
-        a = div.getElementsByTagName("a");
-        for (i = 0; i < a.length; i++) {
-            txtValue = a[i].textContent || a[i].innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                a[i].style.display = "";
-            } else {
-                a[i].style.display = "none";
+        function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
             }
         }
-    }
-</script>
+    </script>
 
 
 
